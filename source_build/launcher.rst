@@ -1,3 +1,5 @@
+.. _source_build_launcher:
+
 Compiling the game launcher
 ===========================
 
