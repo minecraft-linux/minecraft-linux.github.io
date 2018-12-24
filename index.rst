@@ -6,6 +6,7 @@ Welcome to Minecraft Bedrock Launcher's documentation!
    :caption: Contents:
 
    getting_started
+   troubleshooting
 
 About
 =====
