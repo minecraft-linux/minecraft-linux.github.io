@@ -1,3 +1,5 @@
+.. _extractor:
+
 Extract utility
 ===============
 

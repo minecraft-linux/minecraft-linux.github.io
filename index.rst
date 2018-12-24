@@ -9,6 +9,7 @@ Welcome to Minecraft Bedrock Launcher's documentation!
    troubleshooting
    source_build/index
    extractor
+   server
 
 About
 =====
