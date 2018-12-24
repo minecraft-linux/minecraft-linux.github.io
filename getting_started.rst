@@ -4,6 +4,7 @@ Getting started
 MacOS
 -----
 A prebuilt **macOS binary** is `available here <https://mrarm.io/r/mcpelauncher-osx>`__.
+
 If you want to compile from sources on macOS `go here <https://github.com/minecraft-linux/osx-packaging-scripts/wiki>`__.
 
 Ubuntu 18.04+
