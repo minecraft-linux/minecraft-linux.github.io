@@ -34,7 +34,7 @@ Depending on your system the process may vary:
 
 1.8 does not work and crashes with :code:`failed to locate madvise`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Make sure to :ref:`update the launcher <updating_the_launcher>`. If you have switched from using a source build to a binary one, `make sure to uninstall the source one first <https://github.com/minecraft-linux/mcpelauncher-manifest/wiki/Compiling-from-sources#uninstalling>`__.
+Make sure to :ref:`update the launcher <updating_the_launcher>`. If you have switched from using a source build to a binary one, :ref:`make sure to uninstall the source one first <source_uninstall>`.
 
 File picking doesn't work or crashes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
