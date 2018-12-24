@@ -28,8 +28,8 @@ You can now optionally install the MSA daemon system-wise. If you don't, you'll 
   .. code:: bash
 
       cpack --config msa-daemon/CPackConfig.cmake
-      sudo dpkg -i  ./msa-daemon-0.1.1-Linux.deb && sudo apt-get install -f
+      sudo dpkg -i  ./msa-daemon-*-Linux.deb && sudo apt-get install -f
       cpack --config msa-ui-qt/CPackConfig.cmake
-      sudo dpkg -i  ./msa-ui-qt-0.1.1-Linux.deb && sudo apt-get install -f
+      sudo dpkg -i  ./msa-ui-qt-*-Linux.deb && sudo apt-get install -f
 
 **Important Note:** Before continuing to the next step, make sure to go to the parent directory with `cd ../..` (make sure to return from the build directory and then from the msa directory). This generally applies to the following steps as well.
