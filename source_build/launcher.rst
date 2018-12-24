@@ -3,9 +3,7 @@ Compiling the game launcher
 
 Prerequirements
 ---------------
-- **Ubuntu** - you'll need to :code:`sudo dpkg --add-architecture i386`, then install the required packages:
-  .. code::
-   sudo apt-get install g++-multilib libpng-dev:i386 libx11-dev:i386 libxi-dev:i386 libcurl4-openssl-dev:i386 libudev-dev:i386 libevdev-dev:i386 libegl1-mesa-dev:i386 libasound2:i386
+- **Ubuntu** - you'll need to :code:`sudo dpkg --add-architecture i386`, then install the required packages: :code:`sudo apt-get install g++-multilib libpng-dev:i386 libx11-dev:i386 libxi-dev:i386 libcurl4-openssl-dev:i386 libudev-dev:i386 libevdev-dev:i386 libegl1-mesa-dev:i386 libasound2:i386`
 
 - **macOS** - :code:`brew install cmake libpng`
 
