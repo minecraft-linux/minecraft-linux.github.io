@@ -6,4 +6,5 @@ Building from sources
    msa
    launcher
    ui
+   server
 
