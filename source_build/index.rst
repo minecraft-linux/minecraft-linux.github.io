@@ -5,4 +5,5 @@ Building from sources
    intro
    msa
    launcher
+   ui
 
