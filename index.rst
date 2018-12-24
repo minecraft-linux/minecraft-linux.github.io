@@ -8,6 +8,7 @@ Welcome to Minecraft Bedrock Launcher's documentation!
    getting_started
    troubleshooting
    source_build/index
+   extractor
 
 About
 =====
