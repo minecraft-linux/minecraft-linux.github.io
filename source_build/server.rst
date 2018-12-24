@@ -20,3 +20,4 @@ Build instructions
    cmake -DBUILD_CLIENT=OFF ..
    make -j12
 
+After compiling you should look at the :ref:`server` page.
