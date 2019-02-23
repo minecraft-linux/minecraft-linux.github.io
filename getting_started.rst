@@ -41,6 +41,13 @@ There are **Arch AUR packages** available: :code:`mcpelauncher-msa-git mcpelaunc
 
 So, summing it up you should install: :code:`mcpelauncher-msa-git mcpelauncher-msa-ui-qt-git mcpelauncher-linux-git mcpelauncher-ui-git`
 
+AppImage
+--------
+
+A prebuilt **AppImage binary** is `available here <https://mcpelauncher.mrarm.io/appimage/Minecraft_Bedrock_Launcher.AppImage>`__. After downloading simply open terminal, `chmod +x Minecraft_Bedrock_Launcher.AppImage` and run it.
+
+This is generally the preferred way if your OS is not one of the ones listed above.
+
 Source build
 ------------
 If there are no packages available for your repository, check out the |Source build guide|_.
