@@ -44,7 +44,7 @@ So, summing it up you should install: :code:`mcpelauncher-msa-git mcpelauncher-m
 AppImage
 --------
 
-A prebuilt **AppImage binary** is `available here <https://mcpelauncher.mrarm.io/appimage/Minecraft_Bedrock_Launcher.AppImage>`__. After downloading simply open terminal, `chmod +x Minecraft_Bedrock_Launcher.AppImage` and run it.
+A prebuilt **AppImage binary** is `available here <https://mcpelauncher.mrarm.io/appimage/Minecraft_Bedrock_Launcher.AppImage>`__. After downloading simply open terminal, :code:`chmod +x Minecraft_Bedrock_Launcher.AppImage` and run it.
 
 This is generally the preferred way if your OS is not one of the ones listed above.
 
