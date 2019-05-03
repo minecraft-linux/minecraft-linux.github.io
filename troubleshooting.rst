@@ -50,7 +50,7 @@ The Qt UI stores the game it's own directory per version in :code:`~/.local/shar
 
 You have two options:
  - Copy, move or simlink those directories of your desired version to that location.
- - start :code:`mcpelauncher-client` with :code:`-dg ~/.local/share/mcpelauncher/versions/DESIRED_VERSION`.
+ - Start :code:`mcpelauncher-client` with :code:`-dg ~/.local/share/mcpelauncher/versions/DESIRED_VERSION`.
 
  I cannot find my worlds
  ~~~~~~~~~~~~~~~~~~~~~~~
