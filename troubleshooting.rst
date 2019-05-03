@@ -16,7 +16,7 @@ You should make sure to install the proper 32-bit graphic drivers for your hardw
 
 MSA daemon could not be found
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Make sure you have properly installed the following packages: :code:`msa-daemon msa-ui-qt`.
+Make sure you have properly installed the following packages: :code:`msa-daemon msa-ui-qt`
 
 If compiling from sources, make sure to install the MSA component.
 
