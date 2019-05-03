@@ -7,8 +7,19 @@ A prebuilt **macOS binary** is `available here <https://mrarm.io/r/mcpelauncher-
 
 If you want to compile from sources on macOS `go here <https://github.com/minecraft-linux/osx-packaging-scripts/wiki>`__.
 
-Ubuntu 18.04+
--------------
+Ubuntu 19.04
+------------
+.. code:: bash
+
+   sudo dpkg --add-architecture i386
+   wget -O - https://mcpelauncher.mrarm.io/apt/conf/public.gpg.key | sudo apt-key add -
+   sudo add-apt-repository 'deb http://mcpelauncher.mrarm.io/apt/ubuntu/ disco main'
+   sudo apt-get install msa-daemon msa-ui-qt mcpelauncher-client mcpelauncher-ui-qt
+
+You will need to install 32 bit graphics drivers - for integrated graphics and most AMD GPUs :code:`libegl1-mesa-dev:i386` will work.
+
+Ubuntu 18.04 and 18.10
+----------------------
 .. code:: bash
 
    sudo dpkg --add-architecture i386
@@ -18,7 +29,7 @@ Ubuntu 18.04+
 
 You will need to install 32 bit graphics drivers - for integrated graphics and most AMD GPUs :code:`libegl1-mesa:i386 libegl1-mesa-drivers:i386` will work.
 
-If you want to compile from sources on Ubuntu 18.04+ `go here <https://github.com/minecraft-linux/linux-packaging-scripts/wiki#ubuntu-1804>`__.
+If you want to compile from sources on Ubuntu 18.04 or 18.10 `go here <https://github.com/minecraft-linux/linux-packaging-scripts/wiki#ubuntu-1804>`__.
 
 Ubuntu 16.04
 ------------
