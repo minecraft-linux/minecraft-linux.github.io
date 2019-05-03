@@ -17,7 +17,6 @@ You should make sure to install the proper 32-bit graphic drivers for your hardw
 MSA daemon could not be found
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Make sure you have properly installed the following packages: :code:`msa-daemon msa-ui-qt`
-
 If compiling from sources, make sure to install the MSA component.
 
 No audio
@@ -42,28 +41,6 @@ File picking doesn't work or crashes
 You need to install the :code:`zenity` utility:
 - Ubuntu - :code:`sudo apt-get install zenity`
 
-Game starts with Qt UI, but not with regular launcher
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-The Qt UI stores the game it's own directory per version in :code:`~/.local/share/mcpelauncher/versions.
-
-:code:`mcpelauncher-client` expects :code:`libs` and :code:`assets` directories in :code:`~/.local/share/mpelauncher` per default.
-
-You have two options:
- - Copy, move or simlink those directories of your desired version to that location.
- - Start :code:`mcpelauncher-client` with :code:`-dg ~/.local/share/mcpelauncher/versions/DESIRED_VERSION`.
-
- I cannot find my worlds
- ~~~~~~~~~~~~~~~~~~~~~~~
-`~/.local/share/mcpelauncher/games/com.mojang/minecraftWorlds`
-
-Each world has its own directory. Should you have multiple, you can identify them by their name in `levelname.txt` found in each.
-
-Problems with resource packs
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Resource packs should be stored in :code:`~/.local/share/mcpelauncher/games/com.mojang/resource_packs/`.
-
-Problems may arise with :code:`.zip` and :code:`.mcpack` files. Try extracting those into their own subdirectory.
-
 Qt launcher UI
 --------------
 
@@ -74,16 +51,7 @@ Click the gear icon (settings) in the top right corner of the Qt launcher window
 Could not find the game launcher
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 This may happen when the game launcher has not been installed or set properly. The launcher (mcpelauncher-client) must be available in the PATH variable for the launcher to work.
-
 If you are compiling from sources and do not want to install the launcher, please set the GAME_LAUNCHER_PATH at compile time with cmake (eg. :code:`cmake -DGAME_LAUNCHER_PATH-/home/paul/mcpelauncher/build/mcpelauncher-client ..`, make sure that this is the path to the directory containing the binary, and not the binary itself). Otherwise make sure the launcher is properly installed in your system.
-
-Button says 'please wait' forever
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Edit the profile and manually select a version from the list.
-
-Center of the UI is empty with a loading icon
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-The news in the center currently fail to load, this will be fixed in the future.
 
 The launcher crashes when I press Download and Play
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -111,5 +79,4 @@ Run the following commands:
 Obtaining the game log
 ~~~~~~~~~~~~~~~~~~~~~~
 In order to be able to view the game log, in the launcher press the gear in the top right corner and check the "Show log when starting the game" option. This will show a log and update it in realtime. You can copy it by pressing the icon in the top-right corner of the log window.
-
 Additionally, the log will be shown if the game crashes.
