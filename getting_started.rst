@@ -27,7 +27,7 @@ Ubuntu 18.04 and 18.10
    sudo add-apt-repository 'deb http://mcpelauncher.mrarm.io/apt/ubuntu/ bionic main'
    sudo apt-get install msa-daemon msa-ui-qt mcpelauncher-client mcpelauncher-ui-qt
 
-You will need to install 32 bit graphics drivers - for integrated graphics and most AMD GPUs :code:`libegl1-mesa:i386 libegl1-mesa-drivers:i386` will work.
+You will need to install 32 bit graphics drivers - for integrated graphics and most AMD GPUs :code:`libegl1-mesa:i386 libegl1-mesa-dev:i386` will work.
 
 If you want to compile from sources on Ubuntu 18.04 or 18.10 `go here <https://github.com/minecraft-linux/linux-packaging-scripts/wiki#ubuntu-1804>`__.
 
