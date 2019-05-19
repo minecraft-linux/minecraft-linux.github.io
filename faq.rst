@@ -5,6 +5,10 @@ Does it work on Windows?
 ~~~~~~~~~~~~~~~~~~~~~~~
 No. Play the Windows 10 Edition instead if you can.
 
+How does it work?
+~~~~~~~~~~~~~~~~~~~~~~~
+The project runs the native libraries from the Android version directly on your computer. This is accomplished by fixing the incompatibilities between the libc used on Android and the one used on desktop Linux or OS X (Android - Bionic; Linux - glibc). This is a simple compatibility layer which doesn't impact performance in any significant way; it's similar to Wine in a way, but way more lightweight and simple. Aditionally, all Android-specific code has been rewritten (AppPlatform, Store, Xbox Live, etc.).
+
 I compiled and/or installed everything, but mcpelauncher-client doesn't start
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Chances are, you don't have the actual game yet. This project does **not** provide MCPE/Minecraft Bedrock Edition itself.
