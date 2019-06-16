@@ -87,3 +87,10 @@ Obtaining the game log
 ~~~~~~~~~~~~~~~~~~~~~~
 In order to be able to view the game log, in the launcher press the gear in the top right corner and check the "Show log when starting the game" option. This will show a log and update it in realtime. You can copy it by pressing the icon in the top-right corner of the log window.
 Additionally, the log will be shown if the game crashes.
+
+Appimage
+--------
+
+Appimage crashes when I try to sign in to Google
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The current workaround is to use LD_PRELOAD for nss3, eg. `LD_PRELOAD=/usr/lib/libnss3.so ./Minecraft_Bedrock_Launcher.AppImage`
