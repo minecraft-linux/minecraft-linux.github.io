@@ -41,12 +41,18 @@ File picking doesn't work or crashes
 You need to install the :code:`zenity` utility:
 - Ubuntu - :code:`sudo apt-get install zenity`
 
-I run into lagspikes during PvP on OS X
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-This can be fixed by running the game via the command line. To accomplish it open a terminal and do the following:
+I run into lagspikes during PvP
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This can be fixed by starting the game manually via the command line. To do this, open a terminal and do the following:
+
+Linux:
+
+- :code:`mcpelauncher-client -dg ~/.local/share/mcpelauncher/versions/1.2.3.4` - Replace 1.2.3.4 with the version of Minecraft you want to run.
+
+Mac OS X:
 
 - :code:`cd /Applications/Minecraft\ Bedrock\ Launcher.app/Contents/MacOS`
-- :code:`./mcpelauncher-client -dg ~/Library/Application\ Support/mcpelauncher/versions/1.2.3.4` - Replace 1.2.3.4 with the version of Minecraft you want to run
+- :code:`./mcpelauncher-client -dg ~/Library/Application\ Support/mcpelauncher/versions/1.2.3.4` - Replace 1.2.3.4 with the version of Minecraft you want to run.
 
 Qt launcher UI
 --------------
