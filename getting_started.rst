@@ -25,7 +25,7 @@ Ubuntu 18.04 and 18.10
    sudo dpkg --add-architecture i386
    wget -O - https://mcpelauncher.mrarm.io/apt/conf/public.gpg.key | sudo apt-key add -
    sudo add-apt-repository 'deb http://mcpelauncher.mrarm.io/apt/ubuntu/ bionic main'
-   sudo apt-get install msa-daemon msa-ui-qt mcpelauncher-client mcpelauncher-ui-qt
+   sudo apt install msa-daemon msa-ui-qt mcpelauncher-client mcpelauncher-ui-qt
 
 You will need to install 32 bit graphics drivers - for integrated graphics and most AMD GPUs :code:`libegl1-mesa:i386 libegl1-mesa-dev:i386` will work.
 
@@ -39,7 +39,7 @@ Ubuntu 16.04
    sudo add-apt-repository -y ppa:beineri/opt-qt596-xenial
    wget -O - https://mcpelauncher.mrarm.io/apt/conf/public.gpg.key | sudo apt-key add -
    sudo add-apt-repository 'deb http://mcpelauncher.mrarm.io/apt/ubuntu/ xenial main'
-   sudo apt-get install msa-daemon msa-ui-qt mcpelauncher-client mcpelauncher-ui-qt
+   sudo apt install msa-daemon msa-ui-qt mcpelauncher-client mcpelauncher-ui-qt
    # To launch do: . /opt/qt59/bin/qt59-env.sh && mcpelauncher-ui-qt
 
 You will need to install 32 bit graphics drivers - for integrated graphics and most AMD GPUs :code:`libegl1-mesa:i386 libegl1-mesa-drivers:i386` will work.
