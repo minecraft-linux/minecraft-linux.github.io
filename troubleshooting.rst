@@ -29,6 +29,7 @@ If compiling from sources, make sure to install the MSA component.
 No audio
 ~~~~~~~~
 - **Ubuntu:** Make sure :code:`libasound2:i386` is installed. If it is, you may need to install :code:`libpulse0:i386`.
+- **Arch:** Make sure :code:`lib32-libpulse` and :code:`lib32-alsa-plugins` are inst
 - **Other distros:** Make sure to install alsa (asound) and/or pulseaudio depending on your system configuration.
 
 .. _updating_the_launcher:
