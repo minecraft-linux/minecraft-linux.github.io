@@ -4,7 +4,7 @@ Frequently Asked Questions
 Does it work on Windows 7 / 8?
 ~~~~~~~~~~~~~~~~~~~~~~~~
 No, due to the amount of work required to get this running on Windows. Play the Windows 10 Edition instead if you can.
-Note that you can not run this in the current version of Windows Subsystem for Linux (WSL), as it does not support 32-bit applications.
+Note that you can not run this in the current version of `Windows Subsystem for Linux (WSL) <https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux>`__, as it does not support 32-bit applications.
 
 How does it work?
 ~~~~~~~~~~~~~~~~~
