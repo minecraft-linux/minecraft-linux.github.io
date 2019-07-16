@@ -48,7 +48,7 @@ If you want to compile from sources on Ubuntu 16.04 `go here <https://github.com
 
 Arch
 ----
-There are **Arch AUR packages** available: :code:`mcpelauncher-msa-git mcpelauncher-msa-ui-qt-git` for Xbox Live support (you need to install both), :code:`mcpelauncher-linux-git` for the actual launcher and :code:`mcpelauncher-ui-git` for the metalauncher (recommended). You will need to enable the `multilib repository <https://wiki.archlinux.org/index.php/Official_repositories#multilib>`__. For audio support, you need to install :code:`lib32-libpulse` and `:code:`lib32-alsa-plugins`
+There are **Arch AUR packages** available: :code:`mcpelauncher-msa-git mcpelauncher-msa-ui-qt-git` for Xbox Live support (you need to install both), :code:`mcpelauncher-linux-git` for the actual launcher and :code:`mcpelauncher-ui-git` for the metalauncher (recommended). You will need to enable the `multilib repository <https://wiki.archlinux.org/index.php/Official_repositories#multilib>`__. For audio support, you need to install :code:`lib32-libpulse` and :code:`lib32-alsa-plugins`.
 
 So, summing it up you should install: :code:`mcpelauncher-msa-git mcpelauncher-msa-ui-qt-git mcpelauncher-linux-git mcpelauncher-ui-git lib32-libpulse lib32-alsa-plugins`
 
