@@ -76,7 +76,7 @@ Open the new :code:`skin.json` file with text edit and look for
   "skins": [
     {
       "localization_name": "Steve",
-      "geometry": "geometry.humanoid.custom",
+:code:`"geometry": "geometry.humanoid.custom",`
       "texture": "nitrosfn.png",
 	  "cape": "cape.png",
       "type": "free"`.
