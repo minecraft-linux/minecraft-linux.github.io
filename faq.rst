@@ -73,7 +73,7 @@ From the other finder, where your custom cape and skin is, copy all the files an
 
 Open the new :code:`skin.json` file with text edit and look for 
 :code:`{`
-  "skins": [
+  :code:`"skins": [`
    :code:`{`
       :code:`"localization_name": "Steve",`
 :code:`"geometry": "geometry.humanoid.custom",`
