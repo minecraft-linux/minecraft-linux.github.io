@@ -65,15 +65,15 @@ If you want to change the cape, go to the other folder :code:`cape presets`, and
 
 If you want a custom cape, make sure it is a 64x32 pixel cape otherwise it will not work.
 
-In a seperate finder folder, go to the directory :code:`~Library/Application Support/versions` then go to the folder which shows the version of minecraft you run.
+In a seperate finder folder, go to the directory :code:`~Library/Application Support/mcpelauncher/versions` then go to the folder which shows the version of minecraft you run.
 
-After, go to :code:`assets` then go to :code:`skin_packs` then :code:`vanilla`.
+After, go to :code:`assets/skin_packs/vanilla`.
 
 From the other finder, where your custom cape and skin is, copy all the files and post it in the :code:`vanilla` where your default minecraft files are and replace the default files with the new ones.
 
 Open the new :code:`skin.json` file with text edit and look for:
-.. code-block:: json
-	{
+
+{
   "skins": [
     {
       "localization_name": "Steve",
@@ -83,7 +83,7 @@ Open the new :code:`skin.json` file with text edit and look for:
       "type": "free"
     }
 
-Change the :code:`nitrosfn.png` to the name of the custom skin you use.
+Change the :code:`nitrosfn`.png to the name of the custom skin you want to use.
 
-Save and exit, restart your launcher if it has been running and launch the game, and when you go to the skin section, your skin should have a cape.
+Save and exit, restart your launcher if it has been running and launch the game, and when you go to the skin section your skin should have a cape.
 
