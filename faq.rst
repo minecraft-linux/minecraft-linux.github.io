@@ -72,7 +72,7 @@ After, go to :code:`assets` then go to :code:`skin_packs` then :code:`vanilla`.
 From the other finder, where your custom cape and skin is, copy all the files and post it in the :code:`vanilla` where your default minecraft files are and replace the default files with the new ones.
 
 Open the new :code:`skin.json` file with text edit and look for 
-{
+:code:`{`
   "skins": [
     {
       "localization_name": "Steve",
