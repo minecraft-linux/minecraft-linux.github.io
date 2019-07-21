@@ -59,7 +59,7 @@ Yes, you can get capes; first go to the link `Minecraft Capes Pack <https://www.
 
 After downloading the file, Open it and go to :code:`vanilla`.
 
-All the required files will be there.If you want to add your own custom skin,Put it in the :code:`vanilla` folder but **DO NOT** delete the :code:`nitrosfn.png`skin or the :code:`alex.png`skin.
+All the required files will be there.If you want to add your own custom skin,Put it in the :code:`vanilla` folder but **DO NOT** delete the :code:`nitrosfn.png` skin or the :code:`alex.png` skin.
 
 If you want to change the cape,go to the other folder :code:`cape presets`and name the cape you want:code:`cape.png`and then place it in the :code:`vanilla`folder and replace the cape that is currently in the folder
 
