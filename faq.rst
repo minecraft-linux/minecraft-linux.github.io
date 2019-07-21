@@ -75,7 +75,7 @@ Open the new :code:`skin.json` file with text edit and look for
 :code:`{`
   "skins": [
     {
-      "localization_name": "Steve",
+      :code:`"localization_name": "Steve",`
 :code:`"geometry": "geometry.humanoid.custom",`
       "texture": "nitrosfn.png",
 	  "cape": "cape.png",
