@@ -61,7 +61,7 @@ After downloading the file, Open it and go to :code:`vanilla`.
 
 All the required files will be there.If you want to add your own custom skin,Put it in the :code:`vanilla` folder but **DO NOT** delete the :code:`nitrosfn.png` skin or the :code:`alex.png` skin.
 
-If you want to change the cape,go to the other folder :code:`cape presets`and name the cape you want:code:`cape.png`and then place it in the :code:`vanilla`folder and replace the cape that is currently in the folder
+If you want to change the cape,go to the other folder :code:`cape presets` and name the cape you want:code:`cape.png` and then place it in the :code:`vanilla` folder and replace the cape that is currently in the folder
 
 If you want a custom cape, make sure it is a 64x32 pixel cape otherwise it will not work.
 
