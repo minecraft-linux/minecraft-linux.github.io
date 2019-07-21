@@ -79,7 +79,7 @@ Open the new :code:`skin.json` file with text edit and look for
 :code:`"geometry": "geometry.humanoid.custom",`
       :code:`"texture": "nitrosfn.png",`
 	  :code:`"cape": "cape.png",`
-      :code:"type": "free"`.`
+      :code:`"type": "free"`.`
       
       Change the :code:`nitrosfn.png` to the name of the custom skin you use.
       
