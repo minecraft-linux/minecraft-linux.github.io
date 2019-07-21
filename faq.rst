@@ -52,36 +52,38 @@ If...
 - you need scripting on the server
 - some rarely needed particular modding capabilities
 
-How can I get capes? / Can I install capes?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Can I get custom capes?
+~~~~~~~~~~~~~~~~~~~~~~~
 
 Yes, you can get capes; first go to the link `Minecraft Capes Pack <https://www.mediafire.com/file/4je935z6ki94j6v/Capes_1.7%252B_%2528PatarHD%2529.zip/file>`_
 
 After downloading the file, Open it and go to :code:`vanilla`.
 
-All the required files will be there.If you want to add your own custom skin,Put it in the :code:`vanilla` folder but **DO NOT** delete the :code:`nitrosfn.png` skin or the :code:`alex.png` skin.
+All the required files will be there. If you want to add your own custom skin, Put it in the :code:`vanilla` folder but **DO NOT** delete the :code:`nitrosfn.png` skin or the :code:`alex.png` skin.
 
-If you want to change the cape,go to the other folder :code:`cape presets` and name the cape you want:code:`cape.png` and then place it in the :code:`vanilla` folder and replace the cape that is currently in the folder
+If you want to change the cape, go to the other folder :code:`cape presets`, and name the cape you want to :code:`cape.png` and then place it in the :code:`vanilla` folder and replace the cape that is currently in the folder.
 
 If you want a custom cape, make sure it is a 64x32 pixel cape otherwise it will not work.
 
-Now,in a seperate finder folder, go to the directory :code:`~Library/Application Support/versions` then go to the folder which shows the version of minecraft you run.
+In a seperate finder folder, go to the directory :code:`~Library/Application Support/versions` then go to the folder which shows the version of minecraft you run.
 
 After, go to :code:`assets` then go to :code:`skin_packs` then :code:`vanilla`.
 
 From the other finder, where your custom cape and skin is, copy all the files and post it in the :code:`vanilla` where your default minecraft files are and replace the default files with the new ones.
 
-Open the new :code:`skin.json` file with text edit and look for 
-:code:`{`
-  :code:`"skins": [`
-   :code:`{`
-      :code:`"localization_name": "Steve",`
-:code:`"geometry": "geometry.humanoid.custom",`
-      :code:`"texture": "nitrosfn.png",`
-	  :code:`"cape": "cape.png",`
-      :code:`"type": "free"`.`
-      
-      Change the :code:`nitrosfn.png` to the name of the custom skin you use.
-      
-      Now save and exit, restart your launcher and launch it and when you go to the skin section, your skin should have a cape.
+Open the new :code:`skin.json` file with text edit and look for:
+.. code-block:: json
+	{
+  "skins": [
+    {
+      "localization_name": "Steve",
+      "geometry": "geometry.humanoid.custom",
+      "texture": "nitrosfn.png",
+	"cape": "cape.png",
+      "type": "free"
+    }
+
+Change the :code:`nitrosfn.png` to the name of the custom skin you use.
+
+Save and exit, restart your launcher if it has been running and launch the game, and when you go to the skin section, your skin should have a cape.
 
