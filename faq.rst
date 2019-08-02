@@ -1,6 +1,10 @@
 Frequently Asked Questions
 ==========================
 
+Do I need to own Minecraft: Pocket Edition to play?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Yes. To get the required x86 :code:`.apk`, the Google Play account you sign in with needs to own the game.
+
 Does it work on Windows 7 / 8?
 ~~~~~~~~~~~~~~~~~~~~~~~~
 No, due to the amount of work required to get this running on Windows. Play the Windows 10 Edition instead if you can.
