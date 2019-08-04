@@ -8,14 +8,14 @@ Appimage
 
 Appimage crashes when I try to sign in to Google
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-The current workaround is to use LD_PRELOAD for nss3, eg. :code:`LD_PRELOAD=/usr/lib/libnss3.so ./Minecraft_Bedrock_Launcher.AppImage`
+The current workaround is to use LD_PRELOAD for nss3, eg. :code:`LD_PRELOAD=/usr/lib/libnss3.so ./Minecraft_Bedrock_Launcher.AppImage` Make sure you the :code:`libnss3` package installed.
 
 Game launcher
 -------------
 
-Graphics performance issues (software rendering)
+Graphics performance issues (software rendering) - :code:`EGLUT: failed to initialize EGL display...`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-If the game is running badly, it might be using software rendering (identified by the :code:`llvmpipe` string in the renderer). If you have been redirected here by a link in the launcher this is the case.
+If the game is running poorly, it might be using software rendering (identified by the :code:`llvmpipe` string in the renderer). If you have been redirected here by a link in the launcher this is the case.
 
 You should make sure to install the proper 32-bit graphic drivers for your hardware.
 - For integrated graphics and most AMD GPUs (and maybe Nvidia on nouveau) - :code:`sudo apt-get install libegl1-mesa:i386 libegl1-mesa-drivers:i386`
@@ -32,6 +32,8 @@ No audio
 - **Arch:** Make sure :code:`lib32-libpulse` and :code:`lib32-alsa-plugins` are installed on your system.
 - **Other distros:** Make sure to install alsa (asound) and/or pulseaudio depending on your system configuration.
 
+Please note that the in-game Music is downloaded separately as a free item in the Marketplace.
+
 .. _updating_the_launcher:
 
 Updating the launcher
@@ -40,9 +42,12 @@ Depending on your system the process may vary:
 - Ubuntu prebuilt packages - :code:`sudo apt-get update && sudo apt-get upgrade`
 - Mac OS - Redownload the package
 
-1.8 does not work and crashes with :code:`failed to locate madvise`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Make sure to :ref:`update the launcher <updating_the_launcher>`. If you have switched from using a source build to a binary one, :ref:`make sure to uninstall the source one first <source_uninstall>`.
+macOS X Catalina - :code:`Could not find the game launcher..`
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Currently, macOS Catalina does not support 32-bit applications at this time. You will not be able to use this launcher.
+There are some solutions, you can:
+- Downgrade to Mojave
+- Find a suitable Linux Distro (anything Ubuntu-based will be the easiest)
 
 File picking doesn't work or crashes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -51,7 +56,7 @@ You need to install the :code:`zenity` utility:
 
 I run into lagspikes during PvP
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-This can be fixed by starting the game manually via the command line. To do this, open a terminal and do the following:
+This can be fixed by starting the game manually via the command line. To do this, open a terminal and run the following:
 
 Linux:
 
@@ -78,7 +83,7 @@ The launcher crashes when I press Download and Play
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 First of all, make sure a version name is displayed under the Download and Play button. If it's not, please wait some time and/or try restarting the launcher. A window asking you to accept Google Play TOS should appear first.
 
-If the launcher still crashes, it's possible you are trying to download a beta version of the game. Make sure to register in the beta first at https://play.google.com/apps/testing/com.mojang.minecraftpe.
+If the launcher still fails to download, it's possible you are trying to download a beta version of the game. Make sure to register in the beta first at https://play.google.com/apps/testing/com.mojang.minecraftpe.
 
 You must have purchased Minecraft on the account you're trying to use.
 
