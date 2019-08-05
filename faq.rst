@@ -3,7 +3,11 @@ Frequently Asked Questions
 
 Do I need to own Minecraft: Pocket Edition to play?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Yes. To get the required x86 :code:`.apk`, the Google Play account you sign in with needs to own the game.
+Yes. To get the required x86 :code:`.apk`, the Google Play account you sign in with needs to own the game on the Play Store.
+The launcher **cannot** download the game from:
+- The Amazon App store
+- The Apple iOS App store
+- by redeeming a gift code for Minecraft: Windows 10 Edition
 
 Does it work on Windows 7 / 8?
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -12,7 +16,7 @@ Note that you can not run this in the current version of `Windows Subsystem for 
 
 How does it work?
 ~~~~~~~~~~~~~~~~~
-The project runs the native libraries from the Android version directly on your computer. This is accomplished by fixing the incompatibilities between the libc used on Android and the one used on desktop Linux or OS X (Android - Bionic; Linux - glibc). This is a simple compatibility layer which doesn't impact performance in any significant way; it's similar to Wine in a way, but way more lightweight and simple. Aditionally, all Android-specific code has been rewritten to run on Linux (AppPlatform, Store, Xbox Live, etc.).
+The project runs the native libraries from the Android version directly on your computer. This is accomplished by fixing the incompatibilities between the libc used on Android and the one used on desktop Linux or OS X (Android - Bionic; Linux - glibc). This is a simple compatibility layer which doesn't impact performance in any significant way; it's similar to Wine, but much more lightweight and simple. Aditionally, all Android-specific code has been rewritten to run on Linux (AppPlatform, Store, Xbox Live, etc.).
 
 Where are my worlds?
 ~~~~~~~~~~~~~~~~~~~~
