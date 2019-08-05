@@ -54,6 +54,20 @@ File picking doesn't work or crashes
 You need to install the :code:`zenity` utility:
 - Ubuntu - :code:`sudo apt-get install zenity`
 
+I compiled and/or installed everything, but :code:`mcpelauncher-client` doesn't start
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Chances are, you don't have the actual game yet. This project does **not** provide MCPE/Minecraft Bedrock Edition itself.
+
+The easiest way to download and start the game is through the graphical Qt UI (:code:`mcpelauncher-ui-qt`, sometimes called metalauncher). This requires to log into a Google Play Account with Minecraft purchased.
+
+Otherwise, obtain a valid Minecraft x86 :code:`.apk` file and use the :ref:`extract utility <extractor>`.
+
+I Used the Qt UI (metalauncher) to download the game, but :code:`mcpelauncher-client` still doesn't work
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+To start a given version of Minecraft you can run :code:`mcpelauncher-client` with the :code:`-dg` argument, eg. :code:`mcpelauncher-client -dg ~/.local/share/mcpelauncher/versions/DESIRED_VERSION`.
+
+:code:`ls ~/.local/share/mcpelauncher/versions/` will list all versions you have installed.
+
 I run into lagspikes during PvP
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 This can be fixed by starting the game manually via the command line. To do this, open a terminal and run the following:
