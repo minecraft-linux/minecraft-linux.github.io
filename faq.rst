@@ -14,20 +14,6 @@ How does it work?
 ~~~~~~~~~~~~~~~~~
 The project runs the native libraries from the Android version directly on your computer. This is accomplished by fixing the incompatibilities between the libc used on Android and the one used on desktop Linux or OS X (Android - Bionic; Linux - glibc). This is a simple compatibility layer which doesn't impact performance in any significant way; it's similar to Wine in a way, but way more lightweight and simple. Aditionally, all Android-specific code has been rewritten to run on Linux (AppPlatform, Store, Xbox Live, etc.).
 
-I compiled and/or installed everything, but :code:`mcpelauncher-client` doesn't start
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Chances are, you don't have the actual game yet. This project does **not** provide MCPE/Minecraft Bedrock Edition itself.
-
-The easiest way to download and start the game is through the graphical Qt UI (:code:`mcpelauncher-ui-qt`, sometimes called metalauncher). This requires to log into a Google Play Account with Minecraft purchased.
-
-Otherwise, obtain a valid Minecraft x86 :code:`.apk` file and use the :ref:`extract utility <extractor>`.
-
-I Used the Qt UI (metalauncher) to download the game, but :code:`mcpelauncher-client` still doesn't work
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-To start a given version of Minecraft you can run :code:`mcpelauncher-client` with the :code:`-dg` argument, eg. :code:`mcpelauncher-client -dg ~/.local/share/mcpelauncher/versions/DESIRED_VERSION`.
-
-:code:`ls ~/.local/share/mcpelauncher/versions/` will list all versions you have installed.
-
 Where are my worlds?
 ~~~~~~~~~~~~~~~~~~~~
 Linux: :code:`~/.local/share/mcpelauncher/games/com.mojang/minecraftWorlds`
