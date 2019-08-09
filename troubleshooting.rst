@@ -15,7 +15,8 @@ Controller
 
 The player's view drifts by itself when a controller is plugged in
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-This happens when the controller's Deadzones are not set properly for the game. You must manually set the deadzones for your controller. 
+This happens when the controller's Deadzones are not set properly for the game. You must manually set the deadzones for your controller.
+
 - Linux: https://wiki.archlinux.org/index.php/Gamepad#evdev_API_deadzones or if you have an Xbox360 Controller, open a terminal and run :code:`sudo xboxdrv --detach-kernel-driver --deadzone 6000 --silent --type xbox360 --mimic-xpad` while you are **ingame**.
 
 - Mac OS X: TBA
@@ -28,8 +29,10 @@ Graphics performance issues (software rendering) - :code:`EGLUT: failed to initi
 If the game is running poorly, it might be using software rendering (identified by the :code:`llvmpipe` string in the renderer). If you have been redirected here by a link in the launcher this is the case.
 
 You should make sure to install the proper 32-bit graphic drivers for your hardware.
+
 - For integrated graphics and most AMD GPUs (and maybe Nvidia on nouveau) - :code:`sudo apt-get install libegl1-mesa:i386 libegl1-mesa-drivers:i386`
-- You may need to reinstall the proprietary drivers if you had installed them manually before.
+
+You may need to reinstall the proprietary drivers if you had installed them manually before.
 
 MSA daemon could not be found
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -49,23 +52,28 @@ No audio
 Updating the launcher
 ~~~~~~~~~~~~~~~~~~~~~
 Depending on your system the process may vary:
+
 - Ubuntu prebuilt packages - :code:`sudo apt-get update && sudo apt-get upgrade`
+
 - Mac OS - Redownload the package
 
 macOS X Catalina - :code:`Could not find the game launcher..`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Currently, macOS Catalina does not support 32-bit applications at this time; you will not be able to use this launcher.
 There are some solutions, you can:
+
 - Downgrade to Mojave
+
 - Find a suitable Linux Distro (anything Ubuntu-based will be the easiest)
 
 File picking doesn't work or crashes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 You need to install the :code:`zenity` utility:
+
 - Ubuntu - :code:`sudo apt-get install zenity`
 
 I compiled and/or installed everything, but :code:`mcpelauncher-client` doesn't start
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Chances are, you don't have the actual game yet. This project does **not** provide MCPE/Minecraft Bedrock Edition itself.
 
 The easiest way to download and start the game is through the graphical Qt UI (:code:`mcpelauncher-ui-qt`, sometimes called metalauncher). This requires to log into a Google Play Account with Minecraft purchased.
@@ -89,6 +97,7 @@ Linux:
 Mac OS X:
 
 - :code:`cd /Applications/Minecraft\ Bedrock\ Launcher.app/Contents/MacOS`
+
 - :code:`./mcpelauncher-client -dg ~/Library/Application\ Support/mcpelauncher/versions/1.2.3.4` - Replace 1.2.3.4 with the version of Minecraft you want to run.
 
 Qt launcher UI
