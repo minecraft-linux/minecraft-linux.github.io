@@ -10,11 +10,21 @@ Appimage crashes when I try to sign in to Google
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The current workaround is to use LD_PRELOAD for nss3, eg. :code:`LD_PRELOAD=/usr/lib/libnss3.so ./Minecraft_Bedrock_Launcher.AppImage` Make sure you the :code:`libnss3` package installed.
 
+Controller
+----------
+
+The player's view drifts by itself when a controller is plugged in
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This happens when the controller's Deadzones are not set properly for the game. You must manually set the deadzones for your controller. 
+- Linux: https://wiki.archlinux.org/index.php/Gamepad#evdev_API_deadzones or if you have an Xbox360 Controller, open a terminal and run :code:`sudo xboxdrv --detach-kernel-driver --deadzone 6000 --silent --type xbox360 --mimic-xpad` while you are **ingame**.
+
+- Mac OS X: TBA
+
 Game launcher
 -------------
 
 Graphics performance issues (software rendering) - :code:`EGLUT: failed to initialize EGL display...`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 If the game is running poorly, it might be using software rendering (identified by the :code:`llvmpipe` string in the renderer). If you have been redirected here by a link in the launcher this is the case.
 
 You should make sure to install the proper 32-bit graphic drivers for your hardware.
@@ -32,7 +42,7 @@ No audio
 - **Arch:** Make sure :code:`lib32-libpulse` and :code:`lib32-alsa-plugins` are installed on your system.
 - **Other distros:** Make sure to install alsa (asound) and/or pulseaudio depending on your system configuration.
 
-Please note that the in-game Music is downloaded separately as a free item in the Marketplace.
+**Please note that the in-game Music is downloaded separately as a free item in the Marketplace.**
 
 .. _updating_the_launcher:
 
@@ -44,7 +54,7 @@ Depending on your system the process may vary:
 
 macOS X Catalina - :code:`Could not find the game launcher..`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Currently, macOS Catalina does not support 32-bit applications at this time. You will not be able to use this launcher.
+Currently, macOS Catalina does not support 32-bit applications at this time; you will not be able to use this launcher.
 There are some solutions, you can:
 - Downgrade to Mojave
 - Find a suitable Linux Distro (anything Ubuntu-based will be the easiest)
@@ -99,7 +109,7 @@ First of all, make sure a version name is displayed under the Download and Play 
 
 If the launcher still fails to download, it's possible you are trying to download a beta version of the game. Make sure to register in the beta first at https://play.google.com/apps/testing/com.mojang.minecraftpe.
 
-You must have purchased Minecraft on the account you're trying to use.
+**You must have purchased Minecraft on the account you're trying to use.**
 
 In some cases, you may need to :ref:`clear the launcher data <clearing_the_launcher_ui_data>`.
 
