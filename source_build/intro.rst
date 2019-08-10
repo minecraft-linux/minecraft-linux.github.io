@@ -6,6 +6,7 @@ If you want to compile from sources make sure to install the basic prerequiremen
 Basic prerequirements
 ---------------------
 - **Ubuntu** - :code:`sudo apt-get install git cmake pkg-config`
+- **Fedora** - :code:`sudo dnf install git make cmake pkg-config`
 
 What to build
 -------------
