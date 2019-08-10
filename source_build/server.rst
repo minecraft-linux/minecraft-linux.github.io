@@ -4,7 +4,7 @@ Compiling the server launcher
 Prerequirements
 ---------------
 - **Ubuntu** - :code:`sudo apt-get install git cmake pkg-config`
-- **Fedora** - :code:`sudo dnf install git make cmake pkg-config gcc-c++`
+- **Fedora** - :code:`sudo dnf install git make cmake pkg-config gcc-c++ libstdc++.i686 glibc-devel.i686`
 - **macOS** - :code:`brew install cmake`
 
 Requirements
