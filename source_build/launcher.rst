@@ -6,7 +6,7 @@ Compiling the game launcher
 Prerequirements
 ---------------
 - **Ubuntu** - you'll need to :code:`sudo dpkg --add-architecture i386`, then install the required packages: :code:`sudo apt-get install g++-multilib libpng-dev:i386 libx11-dev:i386 libxi-dev:i386 libcurl4-openssl-dev:i386 libudev-dev:i386 libevdev-dev:i386 libegl1-mesa-dev:i386 libasound2:i386`
-- **Fedora** - you do not need to change the architecture, just run :code:`sudo dnf install gcc-c++ glibc-devel.i686 libpng-devel.i686 libX11-devel.i686 libXi-devel.i686 libcurl-devel.i686 systemd-devel.i686 libevdev-devel.i686  mesa-libEGL-devel.i686 alsa-lib.i686 libstdc++.i686 mesa-dri-drivers.i686 pulseaudio-libs.i686`
+- **Fedora** - you do not need to change the architecture, just run :code:`sudo dnf install gcc-c++.i686 libpng-devel.i686 libX11-devel.i686 libXi-devel.i686 libcurl-devel.i686 systemd-devel.i686 libevdev-devel.i686  mesa-libEGL-devel.i686 alsa-lib.i686 pulseaudio-libs.i686 mesa-dri-drivers.i686`
 - **macOS** - :code:`brew install cmake libpng`
 
 Build instructions
@@ -32,4 +32,3 @@ You can now optionally install the launcher system-wise. If you don't, you'll ne
 
       cpack --config mcpelauncher-client/CPackConfig.cmake
       sudo dpkg -i  ./mcpelauncher-client-*-Linux.deb && sudo apt-get install -f
-
