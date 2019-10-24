@@ -7,6 +7,10 @@ A prebuilt **macOS binary** is `available here <https://mrarm.io/r/mcpelauncher-
 
 If you want to compile from sources on macOS `go here <https://github.com/minecraft-linux/osx-packaging-scripts/wiki>`__.
 
+Linux Mint
+----------
+Please note that Mint 19 **DOES NOT** equal Ubuntu 19.04. Use the :code:`Ubuntu 18.04` instructions for Mint 19
+
 Ubuntu 19.04
 ------------
 .. code:: bash
