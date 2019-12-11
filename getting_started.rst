@@ -9,7 +9,7 @@ If you want to compile from sources on macOS `go here <https://github.com/minecr
 
 Linux Mint
 ----------
-Please note that Mint 19 **DOES NOT** equal Ubuntu 19.04. Use the :code:`Ubuntu 18.04` instructions for Mint 19
+Please note that Mint 19 **DOES NOT** equal Ubuntu 19.04. Use the :code:`Ubuntu 18.04` instructions for Mint 19.
 
 Ubuntu 19.04
 ------------
@@ -43,6 +43,7 @@ Ubuntu 16.04
    sudo add-apt-repository -y ppa:beineri/opt-qt596-xenial
    wget -O - https://mcpelauncher.mrarm.io/apt/conf/public.gpg.key | sudo apt-key add -
    sudo add-apt-repository 'deb http://mcpelauncher.mrarm.io/apt/ubuntu/ xenial main'
+   sudo apt update
    sudo apt install msa-daemon msa-ui-qt mcpelauncher-client mcpelauncher-ui-qt
    # To launch do: . /opt/qt59/bin/qt59-env.sh && mcpelauncher-ui-qt
 
@@ -65,7 +66,7 @@ This is generally the preferred way if your OS is not one of the ones listed abo
 
 Source build
 ------------
-If there are no packages available for your repository, check out the |Source build guide|_.
+If there are no packages available for your distribution, check out the |Source build guide|_.
 
 You can also use the `Linux build script <https://github.com/minecraft-linux/linux-packaging-scripts/wiki>`__.
 
