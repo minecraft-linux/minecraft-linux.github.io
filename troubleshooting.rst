@@ -8,7 +8,12 @@ Appimage
 
 Appimage crashes when I try to sign in to Google
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-The current workaround is to use LD_PRELOAD for nss3, eg. :code:`LD_PRELOAD=/usr/lib/libnss3.so ./Minecraft_Bedrock_Launcher.AppImage` Make sure you the :code:`libnss3` package installed.
+The current workaround is to use LD_PRELOAD for nss3.
+On deb based distros you should run :code:`LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libnss3.so ./Minecraft_Bedrock_Launcher.AppImage` 
+
+Everywhere else, such as on rpm based distros, you should run :code:`LD_PRELOAD=/usr/lib64/libnss3.so ./Minecraft_Bedrock_Launcher.AppImage`
+
+Make sure you the :code:`libnss3` package installed.
 
 Controller
 ----------
