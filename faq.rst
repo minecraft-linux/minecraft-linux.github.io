@@ -5,6 +5,7 @@ Do I need to own Minecraft: Pocket Edition to play?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Yes. To get the required x86 :code:`.apk`, the Google Play account you sign in with needs to own the game on the Play Store.
 The launcher **cannot** download the game from:
+
 - The Amazon App store
 - The Apple iOS App store
 - by redeeming a gift code for Minecraft: Windows 10 Edition
