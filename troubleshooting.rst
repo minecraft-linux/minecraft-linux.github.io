@@ -66,6 +66,10 @@ There are some solutions, you can:
 
 - Find a suitable Linux Distro (anything Ubuntu-based will be the easiest)
 
+macOS X Mojave - :code:`This browser or app may not be secure. Try using a different browser`
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Try using [@ChristopherHX's fork](https://github.com/ChristopherHX/mcpelauncher-manifest/releases) which uses a different workaround for 1.13 support than the standard launcher.  For support, contact @ChristopherHX on the [Discord chat room](https://discord.gg/TaUNBXr).
+
 File picking doesn't work or crashes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 You need to install the :code:`zenity` utility:
