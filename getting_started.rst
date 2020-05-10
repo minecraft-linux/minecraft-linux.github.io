@@ -1,6 +1,18 @@
 Getting started
 ===============
 
+A note for new users
+--------------------
+
+**This repository is currently not compatible with the latest versions of Minecraft: Bedrock Edition.**
+However, there is an active fork of this repo that does run the latest versions. Both repositories are also undergoing a rewrite to support the new 64Bit versions of Bedrock Edition (Hooray Catalina users!). You can find links For Linux and Mac OS builds below.
+
+Linux - https://github.com/ChristopherHX/linux-packaging-scripts/releases
+
+MacOS - https://github.com/ChristopherHX/mcpelauncher-manifest/releases
+
+
+
 MacOS
 -----
 A prebuilt **macOS binary** is `available here <https://mrarm.io/r/mcpelauncher-osx>`__.
