@@ -1,8 +1,14 @@
 Getting started
 ===============
 
-A note for new users
---------------------
+.. image:: https://i.imgur.com/x47V9Ir.png
+    :width: 200px
+    :align: center
+    :height: 100px
+    :alt: alternate text
+
+**A NOTE FOR NEW USERS**
+------------------------
 
 **This repository is currently not compatible with the latest versions of Minecraft: Bedrock Edition.**
 However, there is an active fork of this repo that does run the latest versions. Both repositories are also undergoing a rewrite to support the new 64Bit versions of Bedrock Edition (Hooray Catalina users!). You can find links For Linux and Mac OS builds below.
