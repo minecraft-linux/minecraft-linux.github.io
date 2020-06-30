@@ -51,22 +51,16 @@ No audio
 
 Updating the launcher
 ~~~~~~~~~~~~~~~~~~~~~
-Depending on your system the process may vary:
+to update the launcher on newer versions of the launcher Press the gear icon and then check for updates
 
-- Ubuntu prebuilt packages - :code:`sudo apt-get update && sudo apt-get upgrade`
+if your launcher is too old or you cant find these buttons 
+in Ubuntu prebuilt packages do sudo apt-get update && sudo apt-get upgrade 
 
-- Mac OS - Redownload the package
+and on Mac OS - Redownload the package
 
-macOS X Catalina - :code:`Could not find the game launcher..`
+macOS X Catalina
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Currently, macOS Catalina does not support 32-bit applications at this time; you will not be able to use this launcher.
-There are some solutions, you can:
-
-- Downgrade to Mojave
-
-- Find a suitable Linux Distro (anything Ubuntu-based will be the easiest)
-
-File picking doesn't work or crashes
+Currently, macOS Catalina does not support 32-bit applications at this time so you will need to use the Ng version of the launcher https://github.com/ChristopherHX/osx-packaging-scripts/releases/tag/ng.dmg which is not fully supported and may be behind on certain updates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 You need to install the :code:`zenity` utility:
 
