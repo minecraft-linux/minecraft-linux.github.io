@@ -30,7 +30,9 @@ If the game is running poorly, it might be using software rendering (identified 
 
 You should make sure to install the proper 32-bit graphic drivers for your hardware.
 
-- For integrated graphics and most AMD GPUs (and maybe Nvidia on nouveau) - :code:`sudo apt-get install libegl1-mesa:i386 libegl1-mesa-drivers:i386`
+- For integrated graphics and most AMD GPUs - :code:`sudo apt-get install libegl1-mesa:i386 libegl1-mesa-drivers:i386`
+
+For Nvidia users - :code:`sudo apt install lib32-nvidia-libgl`
 
 You may need to reinstall the proprietary drivers if you had installed them manually before.
 
