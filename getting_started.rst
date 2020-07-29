@@ -7,7 +7,7 @@ Getting started
     :height: 100px
     :alt: alternate text
 
-**A NOTE FOR NEW USERS**
+⚠️ **A NOTE FOR NEW USERS** ⚠️
 ------------------------
 
 **This repository is currently not compatible with the latest versions of Minecraft: Bedrock Edition.**
