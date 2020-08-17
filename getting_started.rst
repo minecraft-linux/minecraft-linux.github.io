@@ -82,6 +82,18 @@ A prebuilt **AppImage binary** is `available here <https://mcpelauncher.mrarm.io
 
 This is generally the preferred way if your OS is not one of the ones listed above.
 
+Flatpak
+--------
+
+You can also install mcpelauncher via [Flatpak](https://flathub.org/apps/details/io.mrarm.mcpelauncher)
+To install it, first [setup Flatpak](https://flatpak.org/setup/) then run
+.. code:: bash
+   sudo flatpak install flathub io.mrarm.mcpelauncher
+   
+To run it, run
+.. code:: bash
+   flatpak run io.mrarm.mcpelauncher
+
 Source build
 ------------
 If there are no packages available for your distribution, check out the |Source build guide|_.
