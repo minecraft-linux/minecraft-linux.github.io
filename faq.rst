@@ -21,6 +21,7 @@ The project runs the native libraries from the Android version directly on your 
 Where are my worlds?
 ~~~~~~~~~~~~~~~~~~~~
 Linux: :code:`~/.local/share/mcpelauncher/games/com.mojang/minecraftWorlds`
+Linux (Flatpak): :code:`~/.var/app/io.mrarm.mcpelauncher/data/mcpelauncher/games/com.mojang/minecraftWorlds`
 
 Mac OS X: :code:`~/Library/Application Support/mcpelauncher/games/com.mojang/minecraftWorlds`
 
@@ -31,6 +32,7 @@ The :code:`mcpelauncher-server` creates and expects its world files in :code:`wo
 Can I use resource packs?
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 Yes, put them in :code:`~/.local/share/mcpelauncher/games/com.mojang/resource_packs`.
+(For Flatpak) :code:`~/.var/app/io.mrarm.mcpelauncher/data/mcpelauncher/games/com.mojang/resource_packs`
 
 For Mac OS X, put them in :code:`~/Library/Application Support/mcpelauncher/games/com.mojang/resource_packs`.
 
