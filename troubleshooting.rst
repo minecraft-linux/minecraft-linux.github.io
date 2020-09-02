@@ -3,6 +3,21 @@ Troubleshooting
 
 .. contents:: :local:
 
+Extracting APKs
+---------------
+
+I downloaded a Minecraft APK from the internet and it doesnt work!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+APKs acquired from anything other than the Google Play store is unsupported by us. It might be possible, but we will not help you.
+
+I copied the Minecraft APK from my phone over to my computer, but it doesnt extract
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Your APK is made for the ARM architecture. You need an x86 (32-bit) or x86_64 (64-bit) APK to play on your computer. If you have an ARM laptop (most chromebooks, pinebook) it should work.
+
+Can somebody give me the APK / extracted files?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**NO.** That is Piracy and we **DO NOT** support it on this project. Anyone caught asking this in the support server will face consequences.
+
 Appimage
 --------
 
@@ -88,7 +103,7 @@ To start a given version of Minecraft you can run :code:`mcpelauncher-client` wi
 
 :code:`ls ~/.local/share/mcpelauncher/versions/` will list all versions you have installed.
 
-I run into lagspikes during PvP
+I run into lagspikes during gameplay
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 This can be fixed by starting the game manually via the command line. To do this, open a terminal and run the following:
 
