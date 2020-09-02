@@ -7,7 +7,7 @@ Getting started
     :height: 100px
     :alt: alternate text
 
-**A NOTE FOR NEW USERS**
+⚠️ **A NOTE FOR NEW USERS** ⚠️
 ------------------------
 
 **This repository is currently not compatible with the latest versions of Minecraft: Bedrock Edition.**
@@ -81,6 +81,18 @@ AppImage
 A prebuilt **AppImage binary** is `available here <https://mcpelauncher.mrarm.io/appimage/Minecraft_Bedrock_Launcher.AppImage>`__. After downloading simply open terminal, :code:`chmod +x Minecraft_Bedrock_Launcher.AppImage` and run it.
 
 This is generally the preferred way if your OS is not one of the ones listed above.
+
+Flatpak
+--------
+
+You can also install mcpelauncher via [Flatpak](https://flathub.org/apps/details/io.mrarm.mcpelauncher)
+To install it, first [setup Flatpak](https://flatpak.org/setup/) then run
+.. code:: bash
+   sudo flatpak install flathub io.mrarm.mcpelauncher
+   
+To run it, run
+.. code:: bash
+   flatpak run io.mrarm.mcpelauncher
 
 Source build
 ------------

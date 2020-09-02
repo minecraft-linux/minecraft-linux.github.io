@@ -4,7 +4,9 @@ Frequently Asked Questions
 Do I need to own Minecraft: Pocket Edition to play?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Yes. To get the required x86 :code:`.apk`, the Google Play account you sign in with needs to own the game on the Play Store.
+
 The launcher **cannot** download the game from:
+
 - The Amazon App store
 - The Apple iOS App store
 - by redeeming a gift code for Minecraft: Windows 10 Edition
@@ -21,6 +23,7 @@ The project runs the native libraries from the Android version directly on your 
 Where are my worlds?
 ~~~~~~~~~~~~~~~~~~~~
 Linux: :code:`~/.local/share/mcpelauncher/games/com.mojang/minecraftWorlds`
+Linux (Flatpak): :code:`~/.var/app/io.mrarm.mcpelauncher/data/mcpelauncher/games/com.mojang/minecraftWorlds`
 
 Mac OS X: :code:`~/Library/Application Support/mcpelauncher/games/com.mojang/minecraftWorlds`
 
@@ -31,6 +34,7 @@ The :code:`mcpelauncher-server` creates and expects its world files in :code:`wo
 Can I use resource packs?
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 Yes, put them in :code:`~/.local/share/mcpelauncher/games/com.mojang/resource_packs`.
+(For Flatpak) :code:`~/.var/app/io.mrarm.mcpelauncher/data/mcpelauncher/games/com.mojang/resource_packs`
 
 For Mac OS X, put them in :code:`~/Library/Application Support/mcpelauncher/games/com.mojang/resource_packs`.
 
