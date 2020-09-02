@@ -57,13 +57,14 @@ MSA daemon could not be found
 Make sure you have properly installed the following packages: :code:`msa-daemon msa-ui-qt`
 If compiling from sources, make sure to install the MSA component.
 
-No audio
-~~~~~~~~
+No audio / Music
+~~~~~~~~~~~~~~~~
+
+**❗Please note that the in-game Music is downloaded separately as a free item in the Marketplace.❗**
+
 - **Ubuntu:** Make sure :code:`libasound2:i386` is installed. If it is, you may need to install :code:`libpulse0:i386`.
 - **Arch:** Make sure :code:`lib32-libpulse` and :code:`lib32-alsa-plugins` are installed on your system.
 - **Other distros:** Make sure to install alsa (asound) and/or pulseaudio depending on your system configuration.
-
-**Please note that the in-game Music is downloaded separately as a free item in the Marketplace.**
 
 .. _updating_the_launcher:
 
@@ -96,7 +97,7 @@ You need to install the :code:`zenity` utility:
 
 - Ubuntu - :code:`sudo apt-get install zenity`
 
-I compiled and/or installed everything, but :code:`mcpelauncher-client` doesn't start
+I compiled and/or installed everything, but Minecraft doesn't start
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Chances are, you don't have the actual game yet. This project does **not** provide MCPE/Minecraft Bedrock Edition itself.
 
