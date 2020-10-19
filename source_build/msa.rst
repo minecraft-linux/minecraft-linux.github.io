@@ -15,7 +15,7 @@ Build instructions
    git clone --recursive https://github.com/minecraft-linux/msa-manifest.git msa && cd msa
    mkdir -p build && cd build
    cmake -DENABLE_MSA_QT_UI=ON ..
-   make -j12
+   make -j$(getconf _NPROCESSORS_ONLN)
 
 **macOS:** replace the :code:`cmake` line with :code:`cmake -DCMAKE_PREFIX_PATH=$(brew --prefix qt) -DENABLE_MSA_QT_UI=ON ..`
 
