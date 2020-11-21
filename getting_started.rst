@@ -85,13 +85,17 @@ This is generally the preferred way if your OS is not one of the ones listed abo
 Flatpak
 --------
 
-You can also install mcpelauncher via [Flatpak](https://flathub.org/apps/details/io.mrarm.mcpelauncher)
-To install it, first [setup Flatpak](https://flatpak.org/setup/) then run
+You can also install mcpelauncher via `Flatpak on Flathub <https://flathub.org/apps/details/io.mrarm.mcpelauncher>`__
+To install it, first `setup Flatpak <https://flatpak.org/setup/>`__ then run
+
 .. code:: bash
+
    sudo flatpak install flathub io.mrarm.mcpelauncher
    
 To run it, run
+
 .. code:: bash
+
    flatpak run io.mrarm.mcpelauncher
 
 Source build
