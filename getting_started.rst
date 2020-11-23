@@ -1,36 +1,49 @@
 Getting started
 ===============
 
-.. image:: https://i.imgur.com/x47V9Ir.png
-    :width: 200px
-    :align: center
-    :height: 100px
-    :alt: alternate text
+This launcher was rewritten this year to use mainly a fake Java Native Interface to communicate with Minecraft: Bedrock Edition. Additionally this 32bit only Launcher was ported to 64bit x86_64 and arm64 after the release of the first 64bit versions on the Google Play Store, during spring 2020.
 
-⚠️ **A NOTE FOR NEW USERS** ⚠️
-------------------------
+AppImage
+--------
+A prebuilt **AppImage binary** is `currently available here <https://github.com/ChristopherHX/linux-packaging-scripts/releases/download/ng.appimage/Minecraft_Bedrock_Launcher-x86_64.0.0.617.AppImage>`__. After downloading simply open terminal, :code:`chmod +x Minecraft_Bedrock_Launcher-x86_64.0.0.617.AppImage` and run it.
 
-**This repository is currently not compatible with the latest versions of Minecraft: Bedrock Edition.**
-However, there is an active fork of this repo that does run the latest versions. Both repositories are also undergoing a rewrite to support the new 64Bit versions of Bedrock Edition (Hooray Catalina users!). You can find links For Linux and Mac OS builds below.
+`Other AppImages for x86_64, x86, armv7 hardfloat and armv8 are currently available here <https://github.com/ChristopherHX/linux-packaging-scripts/releases/tag/ng.appimage>`__.
 
-Linux - https://github.com/ChristopherHX/linux-packaging-scripts/releases
+Flatpak
+-------
+You can also install mcpelauncher via `Flatpak on Flathub <https://flathub.org/apps/details/io.mrarm.mcpelauncher>`__
+To install it, first `setup Flatpak <https://flatpak.org/setup/>`__ then run
 
-MacOS - https://github.com/ChristopherHX/mcpelauncher-manifest/releases
+.. code:: bash
 
+   sudo flatpak install flathub io.mrarm.mcpelauncher
+   
+To run it, run
 
+.. code:: bash
+
+   flatpak run io.mrarm.mcpelauncher
 
 MacOS
 -----
+A prebuilt **macOS binary** is `currently available here <https://github.com/ChristopherHX/osx-packaging-scripts/releases/download/ng.dmg/Minecraft_Bedrock_Launcher_0.1.b1-macOS-x86_64-0.0.252_macOS_10.10.0.dmg>`__.
+
+Previous version
+----------------
+The previous unsupported launcher version for 0.12 - 1.13.0.6, 1.13.0.34 ( Linux/x86 only ), 1.14.1.3 ( Linux/x86 only ) and 1.14.1.5 ( Linux/x86 only ) can be found here.
+
+MacOS
+^^^^^
 A prebuilt **macOS binary** is `available here <https://mrarm.io/r/mcpelauncher-osx>`__.
 
 If you want to compile from sources on macOS `go here <https://github.com/minecraft-linux/osx-packaging-scripts/wiki>`__.
 
 Linux Mint
-----------
+^^^^^^^^^^
 Please note that Mint 19 **DOES NOT** equal Ubuntu 19.04. Use the :code:`Ubuntu 18.04` instructions for Mint 19.
 
 Ubuntu 19.04
-------------
+^^^^^^^^^^^^
 .. code:: bash
 
    sudo dpkg --add-architecture i386
@@ -41,7 +54,7 @@ Ubuntu 19.04
 You will need to install 32 bit graphics drivers - for integrated graphics and most AMD GPUs :code:`libegl1-mesa-dev:i386` will work.
 
 Ubuntu 18.04 and 18.10
-----------------------
+^^^^^^^^^^^^^^^^^^^^^^
 .. code:: bash
 
    sudo dpkg --add-architecture i386
@@ -54,7 +67,7 @@ You will need to install 32 bit graphics drivers - for integrated graphics and m
 If you want to compile from sources on Ubuntu 18.04 or 18.10 `go here <https://github.com/minecraft-linux/linux-packaging-scripts/wiki#ubuntu-1804>`__.
 
 Ubuntu 16.04
-------------
+^^^^^^^^^^^^
 .. code:: bash
 
    sudo dpkg --add-architecture i386
@@ -70,36 +83,20 @@ You will need to install 32 bit graphics drivers - for integrated graphics and m
 If you want to compile from sources on Ubuntu 16.04 `go here <https://github.com/minecraft-linux/linux-packaging-scripts/wiki#ubuntu-1604>`__.
 
 Arch
-----
+^^^^
 There are **Arch AUR packages** available: :code:`mcpelauncher-msa-git mcpelauncher-msa-ui-qt-git` for Xbox Live support (you need to install both), :code:`mcpelauncher-linux-git` for the actual launcher and :code:`mcpelauncher-ui-git` for the metalauncher (recommended). You will need to enable the `multilib repository <https://wiki.archlinux.org/index.php/Official_repositories#multilib>`__. For audio support, you need to install :code:`lib32-libpulse` and :code:`lib32-alsa-plugins`.
 
 So, summing it up you should install: :code:`mcpelauncher-msa-git mcpelauncher-msa-ui-qt-git mcpelauncher-linux-git mcpelauncher-ui-git lib32-libpulse lib32-alsa-plugins`
 
 AppImage
---------
+^^^^^^^^
 
 A prebuilt **AppImage binary** is `available here <https://mcpelauncher.mrarm.io/appimage/Minecraft_Bedrock_Launcher.AppImage>`__. After downloading simply open terminal, :code:`chmod +x Minecraft_Bedrock_Launcher.AppImage` and run it.
 
 This is generally the preferred way if your OS is not one of the ones listed above.
 
-Flatpak
---------
-
-You can also install mcpelauncher via `Flatpak on Flathub <https://flathub.org/apps/details/io.mrarm.mcpelauncher>`__
-To install it, first `setup Flatpak <https://flatpak.org/setup/>`__ then run
-
-.. code:: bash
-
-   sudo flatpak install flathub io.mrarm.mcpelauncher
-   
-To run it, run
-
-.. code:: bash
-
-   flatpak run io.mrarm.mcpelauncher
-
 Source build
-------------
+^^^^^^^^^^^^
 If there are no packages available for your distribution, check out the |Source build guide|_.
 
 You can also use the `Linux build script <https://github.com/minecraft-linux/linux-packaging-scripts/wiki>`__.
