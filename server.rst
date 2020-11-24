@@ -3,7 +3,7 @@
 Dedicated server
 ================
 
-If you want to use a specific Minecraft version you'll need to start the mcpelauncher-server with the `-dg` argument, pointing to the directory in which Minecraft was extracted using :ref:`the extract utility <extractor>` or using the Qt UI launcher.
+Last updated to work with 1.12.0.28 and 1.12.1.1, other versions won't work. If you want to use a specific Minecraft version you'll need to start the mcpelauncher-server with the `-dg` argument, pointing to the directory in which Minecraft was extracted using :ref:`the extract utility <extractor>` or using the Qt UI launcher.
 
 .. note::
   When using the Qt UI use the following command line option to select the game version (replace 1.2.3.4 with the version you want to use):
