@@ -3,13 +3,20 @@ Frequently Asked Questions
 
 Do I need to own Minecraft: Pocket Edition to play?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Yes. To get the required x86 :code:`.apk`, the Google Play account you sign in with needs to own the game on the Play Store.
+Yes. To download and update a compatible versions of the Game, the Google Play account you sign in with needs to own the game on the Play Store.
+Then you are able to download and play some previous versions of the game as well, althought not offically supported by Google Play.
 
 The launcher **cannot** download the game from:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- The Amazon App store
+- The Amazon App store, althought may or may not work on arm devices. You have to extract the apk from an amazon device.
+
+The launcher **cannot** download and **cannot** launch the game from:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+This would require a completly different Launcher, if that would even possible
+
 - The Apple iOS App store
-- by redeeming a gift code for Minecraft: Windows 10 Edition
+- The Microsoft Store, previously by redeeming a gift code for Minecraft: Windows 10 Edition
 
 Does it work on Windows 7 / 8?
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -38,7 +45,7 @@ Yes, put them in :code:`~/.local/share/mcpelauncher/games/com.mojang/resource_pa
 
 For Mac OS X, put them in :code:`~/Library/Application Support/mcpelauncher/games/com.mojang/resource_packs`.
 
-Shaders are also resource packs. (Shaders must be GLSL based)
+Shaders are also resource packs. (Shaders must be GLSL based and must be compatible with your graphics drivers)
 
 You may need to extract :code:`.zip` and :code:`.mcpack` files into their own subdirectory for them to work properly.
 
