@@ -70,7 +70,9 @@ No audio / Music
 
 Updating the launcher
 ~~~~~~~~~~~~~~~~~~~~~
-to update the launcher on newer versions of the launcher Press the gear icon and then check for updates
+- Linux AppImage or macOS
+  to update the launcher on newer versions of the launcher Press the gear icon and then check for updates
+- Flatpak :code:`sudo flatpak update`
 
 if your launcher is too old or you cant find these buttons 
 in Ubuntu prebuilt packages do sudo apt-get update && sudo apt-get upgrade 
@@ -79,17 +81,13 @@ and on Mac OS - Redownload the package
 
 MacOS X Catalina
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Currently, macOS Catalina does not support 32-bit applications at this time, so you will need to use the NG version of the launcher https://github.com/ChristopherHX/osx-packaging-scripts/releases/tag/ng.dmg which is not fully supported and may be behind on certain updates
+Should be solved by :ref:`updating the launcher <updating_the_launcher>`
 
-Alternatively, you can:
-
-- Downgrade to Mojave
-
-- Find a suitable Linux Distro (anything Ubuntu-based will be the easiest)
-
-macOS X Mojave - :code:`This browser or app may not be secure. Try using a different browser`
+Google prevents login :code:`This browser or app may not be secure. Try using a different browser`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Try using [@ChristopherHX's fork](https://github.com/ChristopherHX/mcpelauncher-manifest/releases) which uses a different workaround for 1.13+ support than the standard launcher.  For support, contact @ChristopherHX on the [Discord chat room](https://discord.gg/TaUNBXr).
+Should be solved by :ref:`updating the launcher <updating_the_launcher>`
+
+Google has anounced to make it even harder for us starting with 4 January 2021, please refer to this issue https://github.com/minecraft-linux/mcpelauncher-manifest/issues/140
 
 File picking doesn't work or crashes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
