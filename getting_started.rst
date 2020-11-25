@@ -1,7 +1,7 @@
 Getting started
 ===============
 
-This launcher was rewritten this year to use mainly a fake Java Native Interface to communicate with Minecraft: Bedrock Edition. Additionally this 32bit only Launcher was ported to 64bit x86_64 and arm64 after the release of the first 64bit versions on the Google Play Store, during spring 2020.
+This launcher has been rewritten in 2020 to use mainly a fake Java Native Interface to communicate with Minecraft: Bedrock Edition. Additionally this previously 32bit only Launcher was ported to 64bit x86_64 and arm64 after the release of the first 64bit versions on the Google Play Store.
 
 AppImage
 --------
