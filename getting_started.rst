@@ -6,12 +6,14 @@ This launcher has been rewritten in 2020 to use mainly a fake Java Native Interf
 AppImage
 --------
 A prebuilt **AppImage binary** is `currently available here <https://github.com/ChristopherHX/linux-packaging-scripts/releases/download/ng.appimage/Minecraft_Bedrock_Launcher-x86_64.0.0.617.AppImage>`__. After downloading simply open terminal, :code:`chmod +x Minecraft_Bedrock_Launcher-x86_64.0.0.617.AppImage` and run it.
+With some Filemanagers you should be able to run it with double click, similar to running a :code:`*.exe` file on Windows.
+Otherwise run it from a Terminal :code:`./Minecraft_Bedrock_Launcher-x86_64.0.0.617.AppImage`
 
 `Other AppImages for x86_64, x86, armv7 hardfloat and armv8 are currently available here <https://github.com/ChristopherHX/linux-packaging-scripts/releases/tag/ng.appimage>`__.
 
 Flatpak
 -------
-You can also install mcpelauncher via `Flatpak on Flathub <https://flathub.org/apps/details/io.mrarm.mcpelauncher>`__
+You can also install mcpelauncher via `Flatpak on Flathub <https://flathub.org/apps/details/io.mrarm.mcpelauncher>`__.
 To install it, first `setup Flatpak <https://flatpak.org/setup/>`__ then run
 
 .. code:: bash
