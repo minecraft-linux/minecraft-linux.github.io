@@ -37,6 +37,7 @@ To run it, run
 MacOS
 -----
 A prebuilt **macOS binary** is `currently available here <https://github.com/ChristopherHX/osx-packaging-scripts/releases/download/ng.dmg/Minecraft_Bedrock_Launcher_0.1.b1-macOS-x86_64-0.0.252_macOS_10.10.0.dmg>`__.
+Allways copy the App to a writeable location otherwise the updater won't work.
 
 Previous version
 ----------------
