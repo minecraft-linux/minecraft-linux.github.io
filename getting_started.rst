@@ -9,6 +9,13 @@ A prebuilt **AppImage binary** is `currently available here <https://github.com/
 With some Filemanagers you should be able to run it with double click, similar to running a :code:`*.exe` file on Windows.
 Otherwise run it from a Terminal :code:`./Minecraft_Bedrock_Launcher-x86_64.0.0.617.AppImage`
 
+If it's your first time you have installed an AppImage and you want an Icon in your startmenu
+
+- install `AppImageLauncher <https://github.com/TheAssassin/AppImageLauncher>`__
+- run the AppImage like before
+- AppImageLauncher will ask you to integrate it, press yes
+- You can now start and update the Launcher directly from your startmenu
+
 `Other AppImages for x86_64, x86, armv7 hardfloat and armv8 are currently available here <https://github.com/ChristopherHX/linux-packaging-scripts/releases/tag/ng.appimage>`__.
 
 Flatpak
@@ -20,6 +27,7 @@ To install it, first `setup Flatpak <https://flatpak.org/setup/>`__ then run
 
    sudo flatpak install flathub io.mrarm.mcpelauncher
    
+If it's your first time you have installed a Flatpak please logout from your Computer and sign back in to be able to find the Launcher inside your startmenu.
 To run it, run
 
 .. code:: bash
