@@ -38,6 +38,7 @@ MacOS
 -----
 A prebuilt **macOS binary** is `currently available here <https://github.com/ChristopherHX/osx-packaging-scripts/releases/download/ng.dmg/Minecraft_Bedrock_Launcher_0.1.b2-macOS-x86_64-0.2.263_macOS_10.13.0.dmg>`__.
 Always copy the App to a writeable location otherwise the updater won't work.
+
 MacOS 10.10-10.12
 ^^^^^^^^^^^^^^^^^
 `Other Versions for unsupported macOS Versions <https://github.com/ChristopherHX/osx-packaging-scripts/releases/tag/ng.dmg>`__.
