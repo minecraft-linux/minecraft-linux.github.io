@@ -5,9 +5,9 @@ This launcher has been rewritten in 2020 to use mainly a fake Java Native Interf
 
 AppImage
 --------
-A prebuilt **AppImage binary** is `currently available here <https://github.com/ChristopherHX/linux-packaging-scripts/releases/download/ng.appimage/Minecraft_Bedrock_Launcher-x86_64.0.0.617.AppImage>`__. After downloading simply open terminal, :code:`chmod +x Minecraft_Bedrock_Launcher-x86_64.0.0.617.AppImage` and run it.
+A prebuilt **AppImage binary** is `currently available here <https://github.com/ChristopherHX/linux-packaging-scripts/releases/download/ng.appimage/Minecraft_Bedrock_Launcher-x86_64.0.0.618.AppImage>`__. After downloading simply open terminal, :code:`chmod +x Minecraft_Bedrock_Launcher-x86_64.0.0.618.AppImage` and run it.
 With some Filemanagers you should be able to run it with double click, similar to running a :code:`*.exe` file on Windows.
-Otherwise run it from a Terminal :code:`./Minecraft_Bedrock_Launcher-x86_64.0.0.617.AppImage`
+Otherwise run it from a Terminal :code:`./Minecraft_Bedrock_Launcher-x86_64.0.0.618.AppImage`
 
 If it's your first time you have installed an AppImage and you want an Icon in your startmenu
 
@@ -36,8 +36,11 @@ To run it, run
 
 MacOS
 -----
-A prebuilt **macOS binary** is `currently available here <https://github.com/ChristopherHX/osx-packaging-scripts/releases/download/ng.dmg/Minecraft_Bedrock_Launcher_0.1.b1-macOS-x86_64-0.0.252_macOS_10.10.0.dmg>`__.
-Allways copy the App to a writeable location otherwise the updater won't work.
+A prebuilt **macOS binary** is `currently available here <https://github.com/ChristopherHX/osx-packaging-scripts/releases/download/ng.dmg/Minecraft_Bedrock_Launcher_0.1.b2-macOS-x86_64-0.2.263_macOS_10.13.0.dmg>`__.
+Always copy the App to a writeable location otherwise the updater won't work.
+MacOS 10.10-10.12
+^^^^^^^^^^^^^^^^^
+`Other Versions for unsupported macOS Versions <https://github.com/ChristopherHX/osx-packaging-scripts/releases/tag/ng.dmg>`__.
 
 Previous version
 ----------------
