@@ -3,18 +3,25 @@ Frequently Asked Questions
 
 Do I need to own Minecraft: Pocket Edition to play?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Yes. To get the required x86 :code:`.apk`, the Google Play account you sign in with needs to own the game on the Play Store.
+Yes. To download and update a compatible versions of the Game, the Google Play account you sign in with needs to own the game on the Play Store.
+Then you are able to download and play some previous versions of the game as well, althought not offically supported by Google Play.
 
 The launcher **cannot** download the game from:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- The Amazon App store
+- The Amazon App store, althought may or may not work on arm devices. You have to extract the apk from an amazon device.
+
+The launcher **cannot** download and **cannot** launch the game from:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+This would require a completly different Launcher, if that would even possible
+
 - The Apple iOS App store
-- by redeeming a gift code for Minecraft: Windows 10 Edition
+- The Microsoft Store, previously by redeeming a gift code for Minecraft: Windows 10 Edition
 
 Does it work on Windows 7 / 8?
-~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 No, due to the amount of work required to get this running on Windows. Play the Windows 10 Edition instead if you can.
-Note that you can not run this in the current version of `Windows Subsystem for Linux (WSL) <https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux>`__, as it does not support 32-bit applications.
+Note that you can not play Minecraft in the current version of `Windows Subsystem for Linux (WSL) <https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux>`__, as the mouse input is broken due to an `issue <https://github.com/microsoft/wslg/issues/240>`__ with its graphic stack.
 
 How does it work?
 ~~~~~~~~~~~~~~~~~
@@ -23,6 +30,7 @@ The project runs the native libraries from the Android version directly on your 
 Where are my worlds?
 ~~~~~~~~~~~~~~~~~~~~
 Linux: :code:`~/.local/share/mcpelauncher/games/com.mojang/minecraftWorlds`
+
 Linux (Flatpak): :code:`~/.var/app/io.mrarm.mcpelauncher/data/mcpelauncher/games/com.mojang/minecraftWorlds`
 
 Mac OS X: :code:`~/Library/Application Support/mcpelauncher/games/com.mojang/minecraftWorlds`
@@ -34,13 +42,14 @@ The :code:`mcpelauncher-server` creates and expects its world files in :code:`wo
 Can I use resource packs?
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 Yes, put them in :code:`~/.local/share/mcpelauncher/games/com.mojang/resource_packs`.
+
 (For Flatpak) :code:`~/.var/app/io.mrarm.mcpelauncher/data/mcpelauncher/games/com.mojang/resource_packs`
 
 For Mac OS X, put them in :code:`~/Library/Application Support/mcpelauncher/games/com.mojang/resource_packs`.
 
-Shaders are also resource packs. (Shaders must be GLSL based)
+Shaders are also resource packs. (Shaders must be GLSL based and must be compatible with your graphics drivers)
 
-You may need to extract :code:`.zip` and :code:`.mcpack` files into their own subdirectory for them to work properly.
+**Note:** You will probably need to extract :code:`.zip` and :code:`.mcpack` files into their own subdirectory for them to work properly.
 
 Why would I want to use this projects server, instead of the official one?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

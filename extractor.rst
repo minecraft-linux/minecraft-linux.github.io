@@ -28,7 +28,7 @@ Compiling
 ~~~~~~~~~
 .. code:: bash
 
-   git clone https://github.com/minecraft-linux/mcpelauncher-extract.git
+   git clone https://github.com/minecraft-linux/mcpelauncher-extract.git -b ng
    cd mcpelauncher-extract && mkdir -p build && cd build
    cmake ..
    make -j12
