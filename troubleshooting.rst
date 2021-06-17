@@ -59,7 +59,7 @@ MSA daemon could not be found
 Make sure you have properly installed the following packages: :code:`msa-daemon msa-ui-qt`
 If compiling from sources, make sure to install the MSA component.
 
-No audio / Music
+No audio / music
 ~~~~~~~~~~~~~~~~
 
 **❗Please note that the in-game Music is downloaded separately as a free item in the Marketplace.❗**
@@ -102,7 +102,7 @@ The easiest way to download and start the game is through the graphical Qt UI (:
 
 Otherwise, obtain a valid Minecraft x86 :code:`.apk` file and use the :ref:`extract utility <extractor>`.
 
-I Used the Qt UI (metalauncher) to download the game, but :code:`mcpelauncher-client` still doesn't work
+I used the Qt UI (metalauncher) to download the game, but :code:`mcpelauncher-client` still doesn't work
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 To start a given version of Minecraft you can run :code:`mcpelauncher-client` with the :code:`-dg` argument, eg. :code:`mcpelauncher-client -dg ~/.local/share/mcpelauncher/versions/DESIRED_VERSION`.
 
