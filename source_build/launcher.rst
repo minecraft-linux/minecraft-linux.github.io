@@ -16,7 +16,7 @@ Build instructions
    git clone --recursive https://github.com/minecraft-linux/mcpelauncher-manifest.git mcpelauncher && cd mcpelauncher
    mkdir -p build && cd build
    cmake ..
-   make -j12
+   make -j$(getconf _NPROCESSORS_ONLN)
 
 **Important note:** Please note that you may need to replace `cmake ..` with `cmake -DMSA_DAEMON_PATH=/absolute/path/to/daemon/build/dir/msa-daemon ..` if you didn't install the MSA daemon (e.g. if you ran the previous command in /home/paul/, you'd have to use /home/paul/msa/build/msa-daemon as the path). Note the .. is preceded by a space and is not part of the path to the daemon.
 
