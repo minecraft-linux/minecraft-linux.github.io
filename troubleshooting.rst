@@ -18,10 +18,10 @@ Can somebody give me the APK / extracted files?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 **NO.** That is Piracy and we **DO NOT** support it on this project. Anyone caught asking this in the support server will face consequences.
 
-Appimage
+AppImage
 --------
 
-Appimage crashes when I try to sign in to Google
+AppImage crashes when I try to sign in to Google
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The current workaround is to use LD_PRELOAD for nss3, eg. :code:`LD_PRELOAD=/usr/lib/libnss3.so ./Minecraft_Bedrock_Launcher.AppImage` Make sure you the :code:`libnss3` package installed.
 

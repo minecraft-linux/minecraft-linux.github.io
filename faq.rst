@@ -19,9 +19,9 @@ This would require a completly different Launcher, if that would even possible
 - The Microsoft Store, previously by redeeming a gift code for Minecraft: Windows 10 Edition
 
 Does it work on Windows 7 / 8?
-~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 No, due to the amount of work required to get this running on Windows. Play the Windows 10 Edition instead if you can.
-Note that you can not run this in the current version of `Windows Subsystem for Linux (WSL) <https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux>`__, as it does not support 32-bit applications.
+Note that you can not play Minecraft in the current version of `Windows Subsystem for Linux (WSL) <https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux>`__, as the mouse input is broken due to an `issue <https://github.com/microsoft/wslg/issues/240>`__ with its graphic stack.
 
 How does it work?
 ~~~~~~~~~~~~~~~~~
@@ -49,7 +49,7 @@ For Mac OS X, put them in :code:`~/Library/Application Support/mcpelauncher/game
 
 Shaders are also resource packs. (Shaders must be GLSL based and must be compatible with your graphics drivers)
 
-You may need to extract :code:`.zip` and :code:`.mcpack` files into their own subdirectory for them to work properly.
+**Note:** You will probably need to extract :code:`.zip` and :code:`.mcpack` files into their own subdirectory for them to work properly.
 
 Why would I want to use this projects server, instead of the official one?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
