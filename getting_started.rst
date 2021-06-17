@@ -5,9 +5,9 @@ This launcher has been rewritten in 2020 to use mainly a fake Java Native Interf
 
 AppImage
 --------
-A prebuilt **AppImage binary** is `currently available here <https://github.com/ChristopherHX/linux-packaging-scripts/releases/download/ng.appimage/Minecraft_Bedrock_Launcher-x86_64.0.0.618.AppImage>`__. After downloading simply open terminal, :code:`chmod +x Minecraft_Bedrock_Launcher-x86_64.0.0.618.AppImage` and run it.
+A prebuilt **AppImage binary** is `currently available here <https://github.com/ChristopherHX/linux-packaging-scripts/releases/download/v0.2.1-661/Minecraft_Bedrock_Launcher-x86_64-0.0.661.AppImage>`__. After downloading simply open terminal, :code:`chmod +x Minecraft_Bedrock_Launcher-x86_64.0.0.661.AppImage` and run it.
 With some Filemanagers you should be able to run it with double click, similar to running a :code:`*.exe` file on Windows.
-Otherwise run it from a Terminal :code:`./Minecraft_Bedrock_Launcher-x86_64.0.0.618.AppImage`
+Otherwise run it from a Terminal :code:`./Minecraft_Bedrock_Launcher-x86_64.0.0.661.AppImage`
 
 If it's your first time you have installed an AppImage and you want an Icon in your startmenu
 
@@ -16,7 +16,7 @@ If it's your first time you have installed an AppImage and you want an Icon in y
 - AppImageLauncher will ask you to integrate it, press yes
 - You can now start and update the Launcher directly from your startmenu
 
-`Other AppImages for x86_64, x86, armv7 hardfloat and armv8 are currently available here <https://github.com/ChristopherHX/linux-packaging-scripts/releases/tag/ng.appimage>`__.
+`Other AppImages for x86_64, x86, armv7 hardfloat and armv8 are currently available here <https://github.com/ChristopherHX/linux-packaging-scripts/releases/tag/latest>`__.
 
 Flatpak
 -------
@@ -36,16 +36,24 @@ To run it, run
 
 MacOS
 -----
-A prebuilt **macOS binary** is `currently available here <https://github.com/ChristopherHX/osx-packaging-scripts/releases/download/ng.dmg/Minecraft_Bedrock_Launcher_0.1.b2-macOS-x86_64-0.2.263_macOS_10.13.0.dmg>`__.
+A prebuilt **macOS binary** is `currently available here <https://github.com/ChristopherHX/osx-packaging-scripts/releases/download/v0.2.1-314/Minecraft_Bedrock_Launcher_v0.2.1-macOS-x86_64-0.2.314_macOS_10.13.0.dmg>`__.
 Always copy the App to a writeable location otherwise the updater won't work.
 
 MacOS 10.10-10.12
 ^^^^^^^^^^^^^^^^^
-`Other Versions for unsupported macOS Versions <https://github.com/ChristopherHX/osx-packaging-scripts/releases/tag/ng.dmg>`__.
+`Other Versions for unsupported macOS Versions <https://github.com/ChristopherHX/osx-packaging-scripts/releases/tag/latest>`__.
 
 Previous version
 ----------------
-The previous unsupported launcher version for 0.12 - 1.13.0.6, 1.13.0.34 ( Linux/x86 only ), 1.14.1.3 ( Linux/x86 only ) and 1.14.1.5 ( Linux/x86 only ) can be found here.
+.. image:: https://i.imgur.com/x47V9Ir.png
+    :width: 100px
+    :align: center
+    :height: 100px
+    :alt: warning
+
+**WARNING: There's no reason to use one of the previous versions.** These versions are unmaintained, buggy, and not supported at all. This section is kept for reference purposes only.
+
+The previous unsupported launcher version for 0.12 - 1.13.0.6, 1.13.0.34 (Linux/x86 only), 1.14.1.3 (Linux/x86 only) and 1.14.1.5 (Linux/x86 only) can be found `here <https://github.com/ChristopherHX/linux-packaging-scripts/releases/appimage>`__.
 
 MacOS
 ^^^^^
