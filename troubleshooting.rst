@@ -7,7 +7,7 @@ Extracting APKs
 ---------------
 
 I downloaded a Minecraft APK from the internet and it doesnt work!
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 APKs acquired from anything other than the Google Play store is unsupported by us. It might be possible, but we will not help you.
 
 I copied the Minecraft APK from my phone over to my computer, but it doesnt extract
@@ -36,6 +36,10 @@ This happens when the controller's Deadzones are not set properly for the game. 
 
 - Mac OS X: TBA
 
+The controller doesn't work at all
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Under Linux, you may have to plug the controller **after** launching the game.
+
 Game launcher
 -------------
 
@@ -45,10 +49,8 @@ If the game is running poorly, it might be using software rendering (identified 
 
 You should make sure to install the proper 32-bit graphic drivers for your hardware.
 
-
 - For integrated graphics and most AMD GPUs (and maybe Nvidia on nouveau) - :code:`sudo apt-get install libegl1-mesa:i386 libegl1-mesa-drivers:i386`
 - For some Nvidia cards (eg. GeForce series), assuming proprietary driver is already installed, install the associated libnvidia-gl-xxx package (where xxx = driver version for your hardware).  For example, if the nvidia-driver-390 metapackage is installed, then :code:`sudo apt-get install libnvidia-gl-390`.
-=======
 
 You may need to reinstall the proprietary drivers if you had installed them manually before.
 
@@ -71,20 +73,17 @@ No audio / Music
 Updating the launcher
 ~~~~~~~~~~~~~~~~~~~~~
 - Linux AppImage or macOS
-  to update the launcher on newer versions of the launcher Press the gear icon and then check for updates
+  to update the launcher on newer versions of the launcher, press the gear icon and then check for updates
 - Flatpak :code:`sudo flatpak update`
 
-if your launcher is too old or you cant find these buttons 
-in Ubuntu prebuilt packages do sudo apt-get update && sudo apt-get upgrade 
-
-and on Mac OS - Redownload the package
+If your launcher is too old or you can't find these buttons, you may need manually download a newer AppImage (Linux) or MacOS binary.
 
 MacOS X Catalina
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~
 Should be solved by :ref:`updating the launcher <updating_the_launcher>`
 
 Google prevents login :code:`This browser or app may not be secure. Try using a different browser`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Should be solved by :ref:`updating the launcher <updating_the_launcher>`
 
 Google has anounced to make it even harder for us starting with 4 January 2021, please refer to this issue https://github.com/minecraft-linux/mcpelauncher-manifest/issues/140
@@ -93,10 +92,10 @@ File picking doesn't work or crashes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 You need to install the :code:`zenity` utility:
 
-- Ubuntu - :code:`sudo apt-get install zenity`
+- Debian/Ubuntu - :code:`sudo apt-get install zenity`
 
 I compiled and/or installed everything, but Minecraft doesn't start
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Chances are, you don't have the actual game yet. This project does **not** provide MCPE/Minecraft Bedrock Edition itself.
 
 The easiest way to download and start the game is through the graphical Qt UI (:code:`mcpelauncher-ui-qt`, sometimes called metalauncher). This requires to log into a Google Play Account with Minecraft purchased.
@@ -110,7 +109,7 @@ To start a given version of Minecraft you can run :code:`mcpelauncher-client` wi
 :code:`ls ~/.local/share/mcpelauncher/versions/` will list all versions you have installed.
 
 I run into lagspikes during gameplay
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 This can be fixed by starting the game manually via the command line. To do this, open a terminal and run the following:
 
 Linux:
