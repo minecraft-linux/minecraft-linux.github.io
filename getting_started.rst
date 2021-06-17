@@ -16,7 +16,7 @@ If it's your first time you have installed an AppImage and you want an Icon in y
 - AppImageLauncher will ask you to integrate it, press yes
 - You can now start and update the Launcher directly from your startmenu
 
-`Other AppImages for x86_64, x86, armv7 hardfloat and armv8 are currently available here <https://github.com/ChristopherHX/linux-packaging-scripts/releases/tag/latest>`__.
+`Other AppImages for x86_64, x86, armv7 hardfloat and armv8 are currently available here <https://github.com/ChristopherHX/linux-packaging-scripts/releases/latest>`__.
 
 Flatpak
 -------
@@ -41,7 +41,7 @@ Always copy the App to a writeable location otherwise the updater won't work.
 
 MacOS 10.10-10.12
 ^^^^^^^^^^^^^^^^^
-`Other Versions for unsupported macOS Versions <https://github.com/ChristopherHX/osx-packaging-scripts/releases/tag/latest>`__.
+`Other Versions for unsupported macOS Versions <https://github.com/ChristopherHX/osx-packaging-scripts/releases/latest>`__.
 
 Previous version
 ----------------
