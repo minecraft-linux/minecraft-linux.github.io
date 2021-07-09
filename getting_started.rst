@@ -34,7 +34,7 @@ To run it, run
 
    flatpak run io.mrarm.mcpelauncher
 
-MacOS
+macOS
 -----
 A prebuilt **macOS binary** is `currently available here <https://github.com/ChristopherHX/osx-packaging-scripts/releases/>`__.
 Always copy the App to a writeable location otherwise the updater won't work.
