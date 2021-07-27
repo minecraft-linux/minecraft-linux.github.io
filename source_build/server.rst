@@ -1,5 +1,5 @@
-Compiling the server launcher
-=============================
+Compiling the server launcher (Outdated as of 2021-07-27)
+=========================================================
 
 Prerequirements
 ---------------
@@ -16,9 +16,9 @@ Build instructions
 ------------------
 .. code:: bash
 
-   git clone --recursive https://github.com/minecraft-linux/mcpelauncher-manifest.git mcpelauncher && cd mcpelauncher
+   git clone --recursive https://github.com/minecraft-linux/mcpelauncher-manifest.git -b master mcpelauncher && cd mcpelauncher
    mkdir -p build && cd build
    cmake -DBUILD_CLIENT=OFF ..
    make -j12
 
-After compiling you should look at the :ref:`server` page.
+After compiling you should look at the :ref:`server` page. This server binary only works with Minecraft 1.12.x.
