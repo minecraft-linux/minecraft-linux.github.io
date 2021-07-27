@@ -45,7 +45,7 @@ Source build
 ------------
 If there are no packages available for your distribution, check out the |Source build guide|_.
 
-You can also use the `Linux build script <https://github.com/minecraft-linux/linux-packaging-scripts/wiki>`__.
+You can also use the `Linux build script (Outdated as of 2021-07-27) <https://github.com/minecraft-linux/linux-packaging-scripts/wiki>`__.
 
 .. |Source build guide| replace:: **Source build guide**
 .. _Source build guide: https://github.com/minecraft-linux/mcpelauncher-manifest/wiki/Compiling-from-sources
