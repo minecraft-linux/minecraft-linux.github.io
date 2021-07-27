@@ -5,9 +5,9 @@ Compiling the game launcher
 
 Prerequirements
 ---------------
-- **Ubuntu** - you'll need to :code:`sudo dpkg --add-architecture i386`, then install the required packages: :code:`sudo apt-get install g++-multilib libpng-dev:i386 libx11-dev:i386 libxi-dev:i386 libcurl4-openssl-dev:i386 libudev-dev:i386 libevdev-dev:i386 libegl1-mesa-dev:i386 libasound2:i386`
-- **Fedora** - you do not need to change the architecture, just run :code:`sudo dnf install gcc-c++ libstdc++.i686 glibc-devel.i686 libpng-devel.i686 zlib-devel.i686 libX11-devel.i686 libXi-devel.i686 libcurl-devel.i686 systemd-devel.i686 libevdev-devel.i686  mesa-libEGL-devel.i686 alsa-lib.i686 pulseaudio-libs.i686 mesa-dri-drivers.i686 systemd-devel libXtst-devel.i686`
-- **macOS** - :code:`brew install cmake libpng`
+- **Ubuntu** (Up to date as of 2021-07-27) - you'll need to install the required packages: :code:`sudo apt-get install --no-install-recommends g++ clang cmake make git ca-certificates libssl-dev libpng-dev libx11-dev libxi-dev libcurl4-openssl-dev libudev-dev libevdev-dev libegl1-mesa-dev libssl-dev libasound2 qtbase5-dev qtwebengine5-dev qtdeclarative5-dev libqt5svg5-dev qml-module-qtquick2 qml-module-qtquick-layouts qml-module-qtquick-controls qml-module-qtquick-controls2 qml-module-qtquick-window2 qml-module-qtquick-dialogs qml-module-qt-labs-settings qml-module-qt-labs-folderlistmodel qml-module-qtwebengine`
+- **Fedora** (Needs verification) - you'll need to install the required packages: :code:`sudo dnf install gcc-c++ clang cmake make git ca-certificates libstdc++ glibc-devel libpng-devel zlib-devel libX11-devel libXi-devel libcurl-devel systemd-devel libevdev-devel mesa-libEGL-devel alsa-lib pulseaudio-libs mesa-dri-drivers systemd-devel libXtst-devel openssl-devel qt5-qtbase-devel qt5-qtwebengine-devel qt5-qtdeclarative-devel qt5-qtsvg-devel qt5-qtquickcontrols qt5-qtquickcontrols2`
+- **macOS** (Outdated as of 2021-07-27) - :code:`brew install cmake libpng openssl@1.1`
 
 Build instructions
 ------------------
@@ -15,7 +15,7 @@ Build instructions
 
    git clone --recursive https://github.com/minecraft-linux/mcpelauncher-manifest.git mcpelauncher && cd mcpelauncher
    mkdir -p build && cd build
-   cmake ..
+   CC=clang CXX=clang++ cmake .. -Wno-dev -DCMAKE_BUILD_TYPE=Release -DJNI_USE_JNIVM=ON 
    make -j$(getconf _NPROCESSORS_ONLN)
 
 **Important note:** Please note that you may need to replace `cmake ..` with `cmake -DMSA_DAEMON_PATH=/absolute/path/to/daemon/build/dir/msa-daemon ..` if you didn't install the MSA daemon (e.g. if you ran the previous command in /home/paul/, you'd have to use /home/paul/msa/build/msa-daemon as the path). Note the .. is preceded by a space and is not part of the path to the daemon.
@@ -26,7 +26,7 @@ Installation
 You can now optionally install the launcher system-wise. If you don't, you'll need to specify the path to the metalauncher later (and the resulting binary will only work on your system).
 
 - **Generic instructions** - Run `sudo make install`. Note that this doesn't make use of your system package manager, and therefore if possible, it's generally not recommended if there are better alternatives available for your system.
-- **Ubuntu** - You can create a .deb file and install it using the following commands:
+- **Ubuntu** (Outdated as of 2021-07-27) - You can create a .deb file and install it using the following commands:
 
   .. code:: bash
 
