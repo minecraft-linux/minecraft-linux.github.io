@@ -35,7 +35,7 @@ To run it, run
 
 macOS
 -----
-Prebuilt **macOS binary** are `currently available here <https://github.com/ChristopherHX/osx-packaging-scripts/releases/latest>`__.
+Prebuilt **macOS binary's** are `currently available here <https://github.com/ChristopherHX/osx-packaging-scripts/releases/latest>`__.
 Always copy the App to a writeable location otherwise the updater won't work.
 
 If you want to compile from sources on macOS `go here (Outdated as of 2021-07-27)
