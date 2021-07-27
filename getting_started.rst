@@ -5,7 +5,8 @@ This launcher has been rewritten in 2020 to use mainly a fake Java Native Interf
 
 AppImage
 --------
-A prebuilt **AppImage binary** is `currently available here <https://github.com/ChristopherHX/linux-packaging-scripts/releases/download/v0.2.1-661/Minecraft_Bedrock_Launcher-x86_64-0.0.661.AppImage>`__. After downloading simply open terminal, :code:`chmod +x Minecraft_Bedrock_Launcher-x86_64.0.0.661.AppImage` and run it.
+Prebuilt **AppImage binary's** `for linux x86_64, x86, armv7 hardfloat and armv8 are currently available here <https://github.com/ChristopherHX/linux-packaging-scripts/releases/latest>`__.
+After downloading simply open terminal, :code:`chmod +x Minecraft_Bedrock_Launcher-x86_64.0.0.661.AppImage` and run it.
 With some Filemanagers you should be able to run it with double click, similar to running a :code:`*.exe` file on Windows.
 Otherwise run it from a Terminal :code:`./Minecraft_Bedrock_Launcher-x86_64.0.0.661.AppImage`
 
@@ -16,11 +17,9 @@ If it's your first time you have installed an AppImage and you want an Icon in y
 - AppImageLauncher will ask you to integrate it, press yes
 - You can now start and update the Launcher directly from your startmenu
 
-`Other AppImages for x86_64, x86, armv7 hardfloat and armv8 are currently available here <https://github.com/ChristopherHX/linux-packaging-scripts/releases/latest>`__.
-
 Flatpak
 -------
-You can also install mcpelauncher via `Flatpak on Flathub <https://flathub.org/apps/details/io.mrarm.mcpelauncher>`__.
+You can also install mcpelauncher on Linux via `Flathub <https://flathub.org/apps/details/io.mrarm.mcpelauncher>`__.
 To install it, first `setup Flatpak <https://flatpak.org/setup/>`__ then run
 
 .. code:: bash
@@ -36,10 +35,11 @@ To run it, run
 
 macOS
 -----
-A prebuilt **macOS binary** is `currently available here <https://github.com/ChristopherHX/osx-packaging-scripts/releases/>`__.
+Prebuilt **macOS binary** are `currently available here <https://github.com/ChristopherHX/osx-packaging-scripts/releases/latest>`__.
 Always copy the App to a writeable location otherwise the updater won't work.
 
-If you want to compile from sources on macOS `go here <https://github.com/minecraft-linux/osx-packaging-scripts/wiki>`__.
+If you want to compile from sources on macOS `go here (Outdated as of 2021-07-27)
+<https://github.com/minecraft-linux/osx-packaging-scripts/wiki>`__.
 
 Source build
 ------------
