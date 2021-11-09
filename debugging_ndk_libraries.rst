@@ -1,7 +1,7 @@
 Debugging ndk libraries
 =======================
 
-Use this with gdb to load debugging symbols of android libraries into you session https://stackoverflow.com/a/33087762.
+Use this with gdb to load debugging symbols of android libraries into your session https://stackoverflow.com/a/33087762.
 
 You get the load address with https://github.com/minecraft-linux/mcpelauncher-linker/blob/5127987ca49c4aeca6d180f26a9a4ac5aa4501c2/src/linker.cpp#L21. Minecraft's load address is printed to the log as a hex number.
 
