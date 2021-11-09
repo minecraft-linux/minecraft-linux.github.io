@@ -102,8 +102,8 @@ Call an arbitary native jni static function from anywhere
 - :code:`"somefunction"` is the jni name of this function
 
 
-Create a global jni refrence of a c++ object
---------------------------------------------
+Create a global jni reference of a c++ object
+---------------------------------------------
 
 .. code:: c++
 
