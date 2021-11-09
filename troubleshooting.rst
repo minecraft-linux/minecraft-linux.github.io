@@ -21,9 +21,17 @@ Can somebody give me the APK / extracted files?
 AppImage
 --------
 
-AppImage crashes when I try to sign in to Google
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-The current workaround is to use LD_PRELOAD for nss3, eg. :code:`LD_PRELOAD=/usr/lib/libnss3.so ./Minecraft_Bedrock_Launcher.AppImage` Make sure you the :code:`libnss3` package installed.
+AppImage UI to large
+~~~~~~~~~~~~~~~~~~~~
+Scaling of qt5 in our AppImages is broken on some pc's. Here a workaround
+
+.. code:: bash
+
+  QT_SCALE_FACTOR=1 QT_AUTO_SCREEN_SCALE_FACTOR=0 ./MC.AppImage
+
+Make shure to replace :code:`./MC.AppImage` with the actual path to your AppImage file. On most systems you can drag'n drop the AppImage from your file manager into the Terminal window to enter the full path.
+
+Source: https://github.com/ChristopherHX/mcpelauncher-ui-manifest/issues/9
 
 Controller
 ----------
@@ -36,8 +44,23 @@ This happens when the controller's Deadzones are not set properly for the game. 
 
 - Mac OS X: TBA
 
-The controller doesn't work at all
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The controller doesn't work at all or you want to remap your gamepad buttons, analogsticks, dpad and triggers?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+You need to create a gamepadmapping for your unknown gamepad.
+
+- Download https://generalarcade.com/gamepadtool/
+- create a mapping with it
+- copy the new mapping line into
+- AppImage: :code:`~/.local/share/mcpelauncher/gamecontrollerdb.txt`
+- Flatpak: :code:`~/.var/app/io.mrarm.mcpelauncher/data/mcpelauncher/gamecontrollerdb.txt`
+- macOS: :code:`~/Library/Application Support/mcpelauncher/gamecontrollerdb.txt`
+- you have to create this text file, if it doesn't exist
+- reopen the game
+
+**The launcher can detect this situation, but it has been disabled to notify the user, because peoples mice, keyboards etc. were detected as gamepads**, how broken some linux systems are is a mystery.
+
+Your gamepad driver might be incompatible, then you need a sane controller.
+
 Under Linux, you may have to plug the controller **after** launching the game.
 
 Game launcher
@@ -67,6 +90,7 @@ No audio / music
 - **Ubuntu:** Make sure :code:`libasound2:i386` is installed. If it is, you may need to install :code:`libpulse0:i386`.
 - **Arch:** Make sure :code:`lib32-libpulse` and :code:`lib32-alsa-plugins` are installed on your system.
 - **Other distros:** Make sure to install alsa (asound) and/or pulseaudio depending on your system configuration.
+- **macOS:** The macOS i386 launcher doesn't have a recent enough native libfmod.so file for Miecraft
 
 .. _updating_the_launcher:
 
@@ -85,8 +109,6 @@ Should be solved by :ref:`updating the launcher <updating_the_launcher>`
 Google prevents login :code:`This browser or app may not be secure. Try using a different browser`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Should be solved by :ref:`updating the launcher <updating_the_launcher>`
-
-Google has anounced to make it even harder for us starting with 4 January 2021, please refer to this issue https://github.com/minecraft-linux/mcpelauncher-manifest/issues/140
 
 File picking doesn't work or crashes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
