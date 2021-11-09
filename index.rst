@@ -13,6 +13,7 @@ Welcome to Minecraft Bedrock Launcher's documentation!
    server
    jni
    ndk_shims
+   debugging_ndk_libraries
 
 About
 =====
