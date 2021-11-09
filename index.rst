@@ -11,6 +11,8 @@ Welcome to Minecraft Bedrock Launcher's documentation!
    source_build/index
    extractor
    server
+   jni
+   ndk_shims
 
 About
 =====
