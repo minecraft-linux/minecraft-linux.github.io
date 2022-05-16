@@ -6,7 +6,7 @@ Prerequirements
 - **Ubuntu 18.04+** - :code:`sudo apt-get install libssl-dev libcurl4-openssl-dev qtbase5-dev qtwebengine5-dev`
 - **Ubuntu 16.04** - You must add a Qt 5.9+ repository first (:code:`add-apt-repository ppa:beineri/opt-qt596-xenial && apt-get update`) from which you should install :code:`apt-get install qt59base qt59webengine`; also install :code:`apt-get install libssl-dev libcurl4-openssl-dev`
 - **Fedora** - :code:`sudo dnf install openssl-devel libcurl-devel qt5-qtbase-devel qt5-qtwebengine-devel`
-- **macOS** - :code:`brew install cmake qt`
+- **macOS** - :code:`brew install cmake qt@5`
 
 Build instructions
 ------------------
@@ -17,7 +17,7 @@ Build instructions
    cmake -DENABLE_MSA_QT_UI=ON ..
    make -j$(getconf _NPROCESSORS_ONLN)
 
-**macOS:** replace the :code:`cmake` line with :code:`cmake -DCMAKE_PREFIX_PATH=$(brew --prefix qt) -DENABLE_MSA_QT_UI=ON ..`
+**macOS:** replace the :code:`cmake` line with :code:`cmake -DCMAKE_PREFIX_PATH=$(brew --prefix qt@5) -DENABLE_MSA_QT_UI=ON ..`
 
 Installation
 ------------
