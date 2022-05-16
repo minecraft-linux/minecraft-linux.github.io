@@ -48,8 +48,6 @@ If there are no packages available for your distribution, check out the |Source 
 You can also use the `Linux build script (Outdated as of 2021-07-27) <https://github.com/minecraft-linux/linux-packaging-scripts/wiki>`__.
 
 .. |Source build guide| replace:: **Source build guide**
-:ref:`_Source build guide <source_build/source_build_launcher>`
-
-Getting help
+.. _Source build guide: https://mcpelauncher.readthedocs.io/en/latest/source_build/index.html
 ------------
 We have a Discord chatroom, which you can join using the following link: https://discord.gg/TaUNBXr
