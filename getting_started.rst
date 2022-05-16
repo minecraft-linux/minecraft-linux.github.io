@@ -48,7 +48,7 @@ If there are no packages available for your distribution, check out the |Source 
 You can also use the `Linux build script (Outdated as of 2021-07-27) <https://github.com/minecraft-linux/linux-packaging-scripts/wiki>`__.
 
 .. |Source build guide| replace:: **Source build guide**
-:ref:`Source build guide <source_build/source_build_launcher>`
+:ref:`_Source build guide <source_build/source_build_launcher>`
 
 Getting help
 ------------
