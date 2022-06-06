@@ -90,7 +90,7 @@ No audio / music
 - **Ubuntu:** Make sure :code:`libasound2:i386` is installed. If it is, you may need to install :code:`libpulse0:i386`.
 - **Arch:** Make sure :code:`lib32-libpulse` and :code:`lib32-alsa-plugins` are installed on your system.
 - **Other distros:** Make sure to install alsa (asound) and/or pulseaudio depending on your system configuration.
-- **macOS:** The macOS i386 launcher doesn't have a recent enough native libfmod.so file for Miecraft
+- **macOS:** The macOS i386 launcher doesn't have a recent enough native libfmod.so file for Minecraft
 
 .. _updating_the_launcher:
 
