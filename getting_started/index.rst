@@ -33,7 +33,7 @@ To run it, run
 
    flatpak run io.mrarm.mcpelauncher
 
-macOS
+MacOS
 -----
 Prebuilt **macOS binary's** are `currently available here <https://github.com/ChristopherHX/osx-packaging-scripts/releases/latest>`__.
 Always copy the App to a writeable location otherwise the updater won't work.
@@ -43,11 +43,6 @@ If you want to compile from sources on macOS `go here (Outdated as of 2021-07-27
 
 Source build
 ------------
-If there are no packages available for your distribution, check out the |Source build guide|_.
+If there are no packages available for your distribution, check out the :ref:`Source Build` guide.
 
 You can also use the `Linux build script (Outdated as of 2021-07-27) <https://github.com/minecraft-linux/linux-packaging-scripts/wiki>`__.
-
-.. |Source build guide| replace:: **Source build guide**
-.. _Source build guide: https://mcpelauncher.readthedocs.io/en/latest/source_build/index.html
-------------
-We have a Discord chatroom, which you can join using the following link: https://discord.gg/TaUNBXr
