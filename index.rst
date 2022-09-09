@@ -2,18 +2,15 @@ Welcome to Minecraft Bedrock Launcher's documentation!
 ======================================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
    :caption: Contents:
 
-   getting_started
-   faq
-   troubleshooting
+   getting_started/index
+   faq/index
+   troubleshooting/index
    source_build/index
-   extractor
-   server
-   jni
-   ndk_shims
-   debugging_ndk_libraries
+   extra/index
+   external_links/index
 
 About
 =====

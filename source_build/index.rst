@@ -1,3 +1,5 @@
+.. _Source Build:
+
 Building from sources
 =====================
 
