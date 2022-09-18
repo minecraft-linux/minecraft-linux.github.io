@@ -20,10 +20,10 @@ Edit this file https://github.com/minecraft-linux/mcpelauncher-client/blob/eb246
 
 - Put :code:`vm.registerClass<MyClass>()` into https://github.com/minecraft-linux/mcpelauncher-client/blob/eb2465a1f59422b1cf11d14b9838eeb5d5c32237/src/jni/jni_support.cpp#L25
 
-Access FakeJni::String
+Access FakeJni::JString
 ----------------------
-- call :code:`FakeJni::String::asStdString()` to get a std::string
-- create a new jni string with :code:`std::make_shared<FakeJni::String>("mycstr")`
+- call :code:`FakeJni::JString::asStdString()` to get a std::string
+- create a new jni string with :code:`std::make_shared<FakeJni::JString>("mycstr")`
 
 Register a native jni static function
 -------------------------------------
