@@ -16,7 +16,7 @@ Build instructions
    git clone --recursive https://github.com/minecraft-linux/mcpelauncher-ui-manifest.git mcpelauncher-ui
    cd mcpelauncher-ui && mkdir -p build && cd build
    cmake ..
-   make -j12
+   make -j$(getconf _NPROCESSORS_ONLN)
 
 **macOS:** replace the :code:`cmake` line with :code:`cmake -DCMAKE_PREFIX_PATH=$(brew --prefix qt@5) ..`
 
