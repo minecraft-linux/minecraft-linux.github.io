@@ -19,6 +19,6 @@ Build instructions
    git clone --recursive https://github.com/minecraft-linux/mcpelauncher-manifest.git -b master mcpelauncher && cd mcpelauncher
    mkdir -p build && cd build
    cmake -DBUILD_CLIENT=OFF ..
-   make -j12
+   make -j$(getconf _NPROCESSORS_ONLN)
 
 After compiling you should look at the :ref:`server` page. This server binary only works with Minecraft 1.12.x.
