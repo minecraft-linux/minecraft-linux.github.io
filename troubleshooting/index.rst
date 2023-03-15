@@ -77,6 +77,8 @@ You should make sure to install the proper 32-bit graphic drivers for your hardw
 
 You may need to reinstall the proprietary drivers if you had installed them manually before.
 
+If you're having issues on wayland, try switching to x if possible.
+
 MSA daemon could not be found
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Make sure you have properly installed the following packages: :code:`msa-daemon msa-ui-qt`
