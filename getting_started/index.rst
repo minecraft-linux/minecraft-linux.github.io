@@ -22,16 +22,85 @@ Flatpak
 You can also install mcpelauncher on Linux via `Flathub <https://flathub.org/apps/details/io.mrarm.mcpelauncher>`__.
 To install it, first `setup Flatpak <https://flatpak.org/setup/>`__ then run
 
+Install / Update System Wide
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. code:: bash
 
    sudo flatpak install flathub io.mrarm.mcpelauncher
+
+To update the launcher if already installed you can run this command
+
+.. code:: bash
+
+   sudo flatpak update
    
+Install / Update User
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. code:: bash
+
+   flatpak install --user flathub io.mrarm.mcpelauncher
+
+To update the launcher if already installed you can run this command
+
+.. code:: bash
+
+   flatpak update
+   
+Run
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 If it's your first time you have installed a Flatpak please logout from your Computer and sign back in to be able to find the Launcher inside your startmenu.
-To run it, run
+
+To run it from a Teriminal, run
 
 .. code:: bash
 
    flatpak run io.mrarm.mcpelauncher
+
+If it doesn't start you can enable debug logging like this
+
+.. code:: bash
+
+   flatpak run io.mrarm.mcpelauncher -v
+
+Debian, Ubuntu and Fedora repo
+------------------------------
+
+`How to add the apt or rpm repository <https://github.com/minecraft-linux/pkg>`__.
+
+Once added you can install the :code:`mcpelauncher-manifest`, :code:`mcpelauncher-ui-manifest` and :code:`msa-manifest` packages to install the launcher system wide.
+
+
+
+Debian / Ubuntu
+^^^^^^^^^^^^^^^
+
+.. code:: bash
+
+   sudo apt update
+   sudo apt install mcpelauncher-manifest mcpelauncher-ui-manifest msa-manifest
+
+Fedora
+^^^^^^
+
+.. code:: bash
+
+   dnf install mcpelauncher-manifest mcpelauncher-ui-manifest msa-manifest
+
+Run
+^^^
+
+You can find it in the startmenu or run the following command
+
+.. code:: bash
+
+   mcpelauncher-ui-qt
+
+If it doesn't start you can enable debug logging like this
+
+.. code:: bash
+
+   mcpelauncher-ui-qt -v
 
 macOS
 -----
