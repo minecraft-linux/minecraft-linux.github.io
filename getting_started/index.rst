@@ -85,7 +85,7 @@ Fedora
 
 .. code:: bash
 
-   dnf install mcpelauncher-manifest mcpelauncher-ui-manifest msa-manifest
+   sudo dnf install mcpelauncher-manifest mcpelauncher-ui-manifest msa-manifest
 
 Run
 ^^^
