@@ -77,6 +77,10 @@ You should make sure to install the proper 32-bit graphic drivers for your hardw
 
 You may need to reinstall the proprietary drivers if you had installed them manually before.
 
+Black screen with Mesa 23.1+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Try adding :code:`MESA_EXTENSION_OVERRIDE=-GL_EXT_instanced_arrays` to environment variables.
+
 MSA daemon could not be found
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Make sure you have properly installed the following packages: :code:`msa-daemon msa-ui-qt`
