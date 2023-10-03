@@ -96,6 +96,11 @@ No audio / music
 - **Other distros:** Make sure to install alsa (asound) and/or pulseaudio depending on your system configuration.
 - **macOS:** The macOS i386 launcher doesn't have a recent enough native libfmod.so file for Minecraft
 
+PipeWire:
+- **Ubuntu, Arch**: Make sure :code:`pipewire-alsa` is installed.
+- **Gentoo**: Make sure the :code:`pipewire-alsa` USE flag is set for the :code:`pipewire` package.
+- **Other distros**: Make sure to install the PipeWire ALSA plugin depending on your system configuration.
+
 .. _updating_the_launcher:
 
 Updating the launcher
