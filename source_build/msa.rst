@@ -1,6 +1,8 @@
 Compiling MSA (for Xbox Live)
 =============================
 
+**Not used for Xbox live in Minecraft 1.16.40+**
+
 Prerequirements
 ---------------
 - **Ubuntu 18.04+** - :code:`sudo apt-get install libssl-dev libcurl4-openssl-dev qtbase5-dev qtwebengine5-dev`
