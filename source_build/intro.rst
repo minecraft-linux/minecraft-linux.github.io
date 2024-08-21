@@ -29,13 +29,14 @@ If you installed using :code:`make install` in order to uninstall do the followi
 
 .. code:: bash
 
+   rm /usr/local/bin/mcpelauncher-client
+   rm /usr/local/bin/mcpelauncher-error
+   rm /usr/local/bin/mcpelauncher-extract
+   rm /usr/local/bin/mcpelauncher-ui-qt
+   rm /usr/local/bin/mcpelauncher-webview
    rm /usr/local/bin/msa-daemon
    rm /usr/local/bin/msa-ui-qt
-   rm /usr/local/bin/msa-ui-gtk
-   rm /usr/local/bin/mcpelauncher-client
-   rm -r /usr/local/share/mcpelauncher
-   rm /usr/local/bin/mcpelauncher-ui-qt
    rm /usr/local/share/applications/mcpelauncher-ui-qt.desktop
-   rm /usr/local/share/pixmaps/mcpelauncher-ui-qt.png
+   rm -r /usr/local/share/mcpelauncher/
 
 Some of the commands may return errors - that's fine as some modules simply could have been not installed.
