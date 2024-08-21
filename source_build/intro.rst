@@ -19,7 +19,7 @@ What to build
 
 Updating
 --------
-To update one of the components (so, :code:`msa`, :code:`mcpelauncher` or :code:`mcpelauncher-ui`), :code:`cd` to it's directory and run: :code:`git pull && git submodule update`. Then follow the same compile instructions as when doing a normal build, but skip the :code:`git clone` line. You'll still need to follow the install steps again afterwards.
+To update one of the components (so, :code:`msa`, :code:`mcpelauncher` or :code:`mcpelauncher-ui`), :code:`cd` to it's directory and run: :code:`git pull && git submodule update --recursive`. Then follow the same compile instructions as when doing a normal build, but skip the :code:`git clone` line. You'll still need to follow the install steps again afterwards.
 
 .. _source_uninstall:
 
