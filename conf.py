@@ -19,7 +19,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Minecraft Bedrock Launcher'
-copyright = '2018, MrARM & contributors'
+copyright = '2024, MrARM & contributors'
 author = 'MrARM & contributors'
 
 # The short X.Y version
