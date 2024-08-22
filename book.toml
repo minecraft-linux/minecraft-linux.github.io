@@ -1,0 +1,6 @@
+[book]
+authors = ["it-a-me"]
+language = "en"
+multilingual = false
+src = "src"
+title = "MCPE Linux Launcher Wiki"
