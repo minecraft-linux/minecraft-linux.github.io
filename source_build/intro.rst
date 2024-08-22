@@ -19,7 +19,7 @@ What to build
 
 Updating
 --------
-To update one of the components (so, :code:`msa`, :code:`mcpelauncher` or :code:`mcpelauncher-ui`), :code:`cd` to it's directory and run: :code:`git pull && git submodule update`. Then follow the same compile instructions as when doing a normal build, but skip the :code:`git clone` line. You'll still need to follow the install steps again afterwards.
+To update one of the components (so, :code:`msa`, :code:`mcpelauncher` or :code:`mcpelauncher-ui`), :code:`cd` to it's directory and run: :code:`git pull && git submodule update --recursive`. Then follow the same compile instructions as when doing a normal build, but skip the :code:`git clone` line. You'll still need to follow the install steps again afterwards.
 
 .. _source_uninstall:
 
@@ -29,13 +29,14 @@ If you installed using :code:`make install` in order to uninstall do the followi
 
 .. code:: bash
 
+   rm /usr/local/bin/mcpelauncher-client
+   rm /usr/local/bin/mcpelauncher-error
+   rm /usr/local/bin/mcpelauncher-extract
+   rm /usr/local/bin/mcpelauncher-ui-qt
+   rm /usr/local/bin/mcpelauncher-webview
    rm /usr/local/bin/msa-daemon
    rm /usr/local/bin/msa-ui-qt
-   rm /usr/local/bin/msa-ui-gtk
-   rm /usr/local/bin/mcpelauncher-client
-   rm -r /usr/local/share/mcpelauncher
-   rm /usr/local/bin/mcpelauncher-ui-qt
    rm /usr/local/share/applications/mcpelauncher-ui-qt.desktop
-   rm /usr/local/share/pixmaps/mcpelauncher-ui-qt.png
+   rm -r /usr/local/share/mcpelauncher/
 
 Some of the commands may return errors - that's fine as some modules simply could have been not installed.
