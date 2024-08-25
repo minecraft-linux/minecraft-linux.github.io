@@ -1,6 +1,6 @@
 # Summary
 
-# About
+# Unofficial *NIX Lancher for Minecraft
 
 This project allows you to launch Minecraft: Bedrock Edition (as in the
 edition w/o the Edition suffix, previously known as Minecraft: Pocket
