@@ -12,4 +12,4 @@ to solve the majority of problems encountered when running the launcher
 - [Game Launcher](./launcher.md)
 - [MSA](./msa.md)
 - [QT User Interface](./ui.md)
-- [Server -- DEPRECATED](./server.md)
+- [Server (DEPRECATED)](./server.md)
