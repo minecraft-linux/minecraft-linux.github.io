@@ -14,7 +14,7 @@ Edition). The launcher supports Linux and OS X.
   - [Game Launcher](./source_build/launcher.md)
   - [MSA](./source_build/msa.md)
   - [QT User Interface](./source_build/ui.md)
-  - [Server -- DEPRECATED](./source_build/server.md)
+  - [Server (DEPRECATED)](./source_build/server.md)
 - [Extra](./extra/index.md)
   - [Extractor](./extra/extractor/index.md)
   - [Server](./extra/server/index.md)

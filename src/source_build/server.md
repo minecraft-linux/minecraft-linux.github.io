@@ -1,4 +1,4 @@
-# DEPRECATED server launcher
+# Compiling the server launcher (DEPRECATED)
 
 ## Prerequisites
 
@@ -9,7 +9,7 @@
 
 ## Requirements
 
-- **Ubuntu** - you'll need to `sudo dpkg --add-architecture i386`, then
+- **Ubuntu** - you'll need to `sudo dpkg FV--add-architecture i386`, then
   install the required packages: `sudo apt-get install g++-multilib`
 - **macOS** - none
 
