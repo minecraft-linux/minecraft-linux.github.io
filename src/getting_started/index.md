@@ -122,14 +122,14 @@ If it doesn't start you can enable debug logging like this
 mcpelauncher-ui-qt -v
 ```
 
-## Source build
-
-If there are no packages available for your distribution, check out the
-[Source Build](../source_build/index.md) guide.
-
 ## macOS
 
 Prebuilt **macOS binary's** are [currently available
 here](https://github.com/ChristopherHX/osx-packaging-scripts/releases/latest).
 Always copy the App to a writeable location otherwise the updater won't
 work.
+
+## Source build
+
+If there are no packages available for your distribution or you want to compile, check out the
+[Source Build](../source_build/index.md) guide.
