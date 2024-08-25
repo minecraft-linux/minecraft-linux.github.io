@@ -222,7 +222,7 @@ first at <https://play.google.com/apps/testing/com.mojang.minecraftpe>.
 use.**
 
 In some cases, you may need to clear the launcher data
-[clearing_the_launcher_ui_data](#clearing-the-launcher-ui-data).
+[clearing the launcher ui data](#clearing-the-launcher-ui-data).
 
 ### Clearing the launcher UI data
 
