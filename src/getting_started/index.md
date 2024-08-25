@@ -124,6 +124,16 @@ mcpelauncher-ui-qt -v
 
 ## macOS
 
+<div class="warning">
+
+Mojang will soon require OpenGL ES 3.1
+
+Starting with March 2025 updates to Minecraft can stop in this macOS Port, which supports at most OpenGL ES 3.0
+
+It's not recommend to buy the android game just for this launcher
+
+</div>
+
 Prebuilt **macOS binary's** are [currently available
 here](https://github.com/ChristopherHX/osx-packaging-scripts/releases/latest).
 Always copy the App to a writeable location otherwise the updater won't
