@@ -1,15 +1,15 @@
 # Getting started
 
-The MCPE Launcher is an **unofficial** launcher for the Android version
+The Unofficial *NIX Lancher for Minecraft is an **unofficial** launcher for the Android version
 the Minecraft Bedrock Edition. It uses uses fake JNI (Java Native
-Interface) to communicate with Minecraft. MCPE Launcher supports x86,
+Interface) to communicate with Minecraft. Unofficial *NIX Lancher for Minecraft supports x86,
 x86_64 armhf, and arm64 versions of Minecraft on both Linux and MacOS
 
 # Installation
 
 ## Linux
 
-The MCPE Launcher can be installed in many ways, however the primary
+The Unofficial *NIX Lancher for Minecraft can be installed in many ways, however the primary
 method of installation is with the Appimage
 
 ### AppImage
