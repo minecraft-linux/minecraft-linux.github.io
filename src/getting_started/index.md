@@ -3,7 +3,7 @@
 The Unofficial *NIX Lancher for Minecraft is an **unofficial** launcher for the Android version
 the Minecraft Bedrock Edition. It uses uses fake JNI (Java Native
 Interface) to communicate with Minecraft. Unofficial *NIX Lancher for Minecraft supports x86,
-x86_64 armhf, and arm64 versions of Minecraft on both Linux and MacOS
+x86_64, armhf, and arm64 versions of Minecraft on both Linux and MacOS
 
 # Installation
 
