@@ -122,10 +122,11 @@ free item in the Marketplace.❗**
   pulseaudio depending on your system configuration.
 - **macOS:** The macOS i386 launcher doesn't have a recent enough native
   libfmod.so file for Minecraft
-
-PipeWire: - **Ubuntu, Arch**: Make sure `pipewire-alsa` is installed. -
+- PipeWire:
+  - **Ubuntu, Arch**: Make sure `pipewire-alsa` is installed. -
 **Gentoo**: Make sure the `pipewire-alsa` USE flag is set for the
-`pipewire` package. - **Other distros**: Make sure to install the
+`pipewire` package.
+  - **Other distros**: Make sure to install the
 PipeWire ALSA plugin depending on your system configuration.
 
 ### Updating the launcher
