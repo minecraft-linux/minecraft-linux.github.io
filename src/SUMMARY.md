@@ -7,7 +7,7 @@ edition w/o the Edition suffix, previously known as Minecraft: Pocket
 Edition). The launcher supports Linux and OS X.
 
 - [Getting Started](./getting_started/index.md)
-- [Faq](./faq/index.md)
+- [FAQ](./faq/index.md)
 - [Troubleshooting](./troubleshooting/index.md)
 - [Building from Source](./source_build/index.md)
   - [Introduction](./source_build/intro.md)
