@@ -33,16 +33,12 @@ following **as root** (escalate using `sudo su`):
 
 ``` bash
    rm /usr/local/bin/mcpelauncher-client
-   rm /usr/local/bin/mcpelauncher-client
-   rm -r /usr/local/share/mcpelauncher
    rm /usr/local/bin/mcpelauncher-error
    rm /usr/local/bin/mcpelauncher-extract
-   rm /usr/local/bin/mcpelauncher-ui-qt
    rm /usr/local/bin/mcpelauncher-ui-qt
    rm /usr/local/bin/mcpelauncher-webview
    rm /usr/local/bin/msa-daemon
    rm /usr/local/bin/msa-ui-qt
-   rm /usr/local/share/applications/mcpelauncher-ui-qt.desktop
    rm /usr/local/share/applications/mcpelauncher-ui-qt.desktop
    rm /usr/local/share/pixmaps/mcpelauncher-ui-qt.png
    rm -r /usr/local/share/mcpelauncher/
