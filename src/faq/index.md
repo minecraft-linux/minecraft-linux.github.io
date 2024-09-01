@@ -21,6 +21,18 @@ possible
 - The Microsoft Store, previously by redeeming a gift code for
   Minecraft: Windows 10 Edition
 
+### Can I play with an APK?
+
+No, this allowed piracy that is forbidden in this project.
+
+Any attempt to document or make it easy to import an paid apk without a valid google play game license is undesirable.
+
+Game licenses can be revoked at any point of time by you, microsoft/mojang or google, as it happened for all residents of Russia.
+
+Ignoring this policy may cause suspension including termination of this project like between 2022-2023.
+
+_Exception to the rule are Minecraft Trial and Edu where the latter doesn't work at this time._
+
 ## Does it work on Windows 7 / 8?
 
 No, due to the amount of work required to get this running on Windows.
