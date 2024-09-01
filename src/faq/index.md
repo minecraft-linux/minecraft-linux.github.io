@@ -74,3 +74,19 @@ compatible with your graphics drivers)
 
 **Note:** You will probably need to extract `.zip` and `.mcpack` files
 into their own subdirectory for them to work properly.
+
+## Can I reenable the native fmod mode?
+
+Yes for Minecraft 1.21.2x and below by extracting the lib/native folder of https://github.com/minecraft-linux/mcpelauncher-linux-bin/tree/1e84fde7d5fb90b913c84b9945700ef6af69df12 or https://github.com/minecraft-linux/mcpelauncher-mac-bin/tree/5189766d94de83a9fa6ea4f8477b1a5faca05bdb directly under [`Data Root`](#where-is-the-data-root-folder)`/lib/native`
+
+## Where is the Data Root folder?
+
+![dataroot](./dataroot.png)
+
+An incomplete list of known values, if your launcher profile has no a custom path.
+
+Package Type|Path
+---|---
+linux|`~/.local/share/mcpelauncher`
+linux (flatpak)|`~/.var/app/io.mrarm.mcpelauncher`
+macOS|`~/Library/Application Support/mcpelauncher`
