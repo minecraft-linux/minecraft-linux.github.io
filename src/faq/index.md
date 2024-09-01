@@ -102,3 +102,9 @@ Package Type|Path
 linux|`~/.local/share/mcpelauncher`
 linux (flatpak)|`~/.var/app/io.mrarm.mcpelauncher`
 macOS|`~/Library/Application Support/mcpelauncher`
+
+## Can I Play multiple Versions of the Game?
+
+Yes, by editing your profile and changeing the version in the dropdown
+
+![profileedit](profileedit.png)
