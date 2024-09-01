@@ -15,12 +15,12 @@ method of installation is with the Appimage
 ### AppImage
 
 Prebuilt linux **AppImages** are available on
-[Github](https://github.com/minecraft-linux/appimage-builder/releases/tag/v1.0.0-798)
+[AppImage Builder on Github](https://github.com/minecraft-linux/appimage-builder/releases/latest)
 After downloading simply open terminal,
-`chmod +x Minecraft_Bedrock_Launcher-x86_64-v1.0.0.798.AppImage` and run
+`chmod +x Minecraft_Bedrock_Launcher-*.AppImage` and run
 it. With some Filemanagers you should be able to run it with double
 click, similar to running a `*.exe` file on Windows. Otherwise run it
-from a Terminal `Minecraft_Bedrock_Launcher-x86_64-v1.0.0.798.AppImage `
+from a Terminal `./Minecraft_Bedrock_Launcher-*.AppImage `
 
 #### Updating
 
