@@ -242,3 +242,11 @@ in the top right corner and check the "Show log when starting the game"
 option. This will show a log and update it in realtime. You can copy it
 by pressing the icon in the top-right corner of the log window.
 Additionally, the log will be shown if the game crashes.
+
+### Starting Minecraft is blocked
+
+![Sample Errors](gplay-error.png)
+
+- Please Open Settings
+- Press Logout
+- Press Login to restore Google Play Access
