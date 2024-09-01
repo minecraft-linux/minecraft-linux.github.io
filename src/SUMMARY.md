@@ -23,3 +23,6 @@ Edition). The launcher supports Linux and OS X.
     - [JNI](./extra/advanced/jni/index.md)
     - [NDK Shims](./extra/advanced/ndk_shims/index.md)
 - [External Links](./external_links/index.md)
+  - [Join us on Discord](https://discord.gg/TaUNBXr)
+  - [Source Code](https://github.com/minecraft-linux/mcpelauncher-manifest)
+  - [Contribute to this Site](https://github.com/minecraft-linux/minecraft-linux.github.io)
