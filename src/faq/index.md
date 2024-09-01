@@ -83,7 +83,7 @@ Yes for Minecraft 1.21.2x and below by extracting the lib/native folder of https
 
 ![dataroot](./dataroot.png)
 
-An incomplete list of known values, if your launcher profile has no a custom path.
+An incomplete list of known values, if your launcher profile has no  custom path.
 
 Package Type|Path
 ---|---
