@@ -7,3 +7,4 @@ title = "Unofficial *NIX Lancher for Minecraft"
 
 [output.html]
 git-repository-url = "https://github.com/minecraft-linux/minecraft-linux.github.io"
+edit-url-template = "https://github.com/minecraft-linux/minecraft-linux.github.io/edit/main/{path}"
