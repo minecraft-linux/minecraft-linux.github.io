@@ -18,7 +18,7 @@ method of installation is with the Appimage
 
 AppImages are deprecated and keep on an outdated release.
 
-Some soft fork violated this policy https://minecraft-linux.github.io/faq/index.html#can-i-play-with-an-apk.
+Some soft forks continued to violating the ["Can I play with an apk"](https://minecraft-linux.github.io/faq/index.html#can-i-play-with-an-apk) policy.
 
 Consider switching to flatpak / native OS packages for Debian, Ubuntu or Fedora
 </div>
