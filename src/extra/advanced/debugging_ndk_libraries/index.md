@@ -17,8 +17,8 @@ Works on linux, macOS and windows on both arm64 and intel
 4. Add the following property (only the python api seem to ignore that we load debug info of `.so` files into a macOS / windows process)
    ```json
    "preRunCommands": [
-        "breakpoint set --name mcpelauncher_linker_notifylldb -C \"script lldb.debugger.GetSelectedTarget().SetModuleLoadAddress(lldb.debugger.GetSelectedTarget().AddModule(lldb.process.ReadCStringFromMemory(lldb.frame.FindVariable('filename').unsigned, 255, lldb.SBError()), '', ''), lldb.frame.FindVariable('offset').unsigned)\" --auto-continue true",
-    ]
+       "breakpoint set --name mcpelauncher_linker_notifylldb -C \"script lldb.debugger.GetSelectedTarget().SetModuleLoadAddress(lldb.debugger.GetSelectedTarget().AddModule(lldb.process.ReadCStringFromMemory(lldb.frame.FindVariable('filename').unsigned, 255, lldb.SBError()), '', ''), lldb.frame.FindVariable('offset').unsigned)\" --auto-continue true",
+   ]
    ```
    mcpelauncher-linker exposes this function used as an automated breakpoint and calls it before calling the constructor of the game, the address is available in the cli output as well.
 5. Enjoy having step debugging in mods compiled with debug information and better stack traces of the minecraft game
