@@ -7,6 +7,22 @@ You get the load address with
 <https://github.com/minecraft-linux/mcpelauncher-linker/blob/5127987ca49c4aeca6d180f26a9a4ac5aa4501c2/src/linker.cpp#L21>.
 Minecraft's load address is printed to the log as a hex number.
 
+## codelldb
+
+Works on linux, macOS and windows on both arm64 and intel
+
+1. Install vscode
+2. Install codelldb extension
+3. Compile the launcher with `-DCMAKE_BUILD_TYPE=Debug`
+4. Add the following property (only the python api seem to ignore that we load debug info of `.so` files into a macOS / windows process)
+   ```json
+   "preRunCommands": [
+        "breakpoint set --name mcpelauncher_linker_notifylldb -C \"script lldb.debugger.GetSelectedTarget().SetModuleLoadAddress(lldb.debugger.GetSelectedTarget().AddModule(lldb.process.ReadCStringFromMemory(lldb.frame.FindVariable('filename').unsigned, 255, lldb.SBError()), '', ''), lldb.frame.FindVariable('offset').unsigned)\" --auto-continue true",
+    ]
+   ```
+   mcpelauncher-linker exposes this function used as an automated breakpoint and calls it before calling the constructor of the game, the address is available in the cli output as well.
+5. Enjoy having step debugging in mods compiled with debug information and better stack traces of the minecraft game
+
 ## Development Utilities
 
 Use readelf to list symbols of `libminecraftpe.so`
