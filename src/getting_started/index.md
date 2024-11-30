@@ -14,6 +14,15 @@ method of installation is with the Appimage
 
 ### AppImage
 
+<div class="warning">
+
+AppImages are deprecated and keep on an outdated release.
+
+Some soft fork violated this policy https://minecraft-linux.github.io/faq/index.html#can-i-play-with-an-apk.
+
+Consider switching to flatpak / native OS packages for Debian, Ubuntu or Fedora
+</div>
+
 Prebuilt linux **AppImages** are available on
 [AppImage Builder on Github](https://github.com/minecraft-linux/appimage-builder/releases/latest)
 After downloading simply open terminal,
