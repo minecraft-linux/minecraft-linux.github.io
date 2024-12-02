@@ -31,6 +31,11 @@ if you didn't install the MSA daemon (e.g. if you ran the previous
 command in `/home/paul/`, you'd have to use
 `/home/paul/msa/build/msa-daemon` as the path).
 
+### Adding Wayland support
+
+By default, compiling the game launcher will not come with native Wayland support, as SDL3 is not enabled. The game will run under Xwayland, but if you are running into issues (e.g. flickering, mouse not locked), it's best to run the game natively through Wayland. To compile the launcher using SDL3, add the following cmake flag:
+`-DGAMEWINDOW_SYSTEM=SDL3`
+
 ## Installation
 
 You can now optionally install the launcher system-wise. If you don't,
