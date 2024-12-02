@@ -117,6 +117,14 @@ sudo apt install mcpelauncher-manifest mcpelauncher-ui-manifest msa-manifest
 sudo dnf install mcpelauncher-manifest mcpelauncher-ui-manifest msa-manifest
 ```
 
+### Arch User Repository (AUR) Package
+
+**Unofficial** packages for Arch Linux users can be installed on the AUR, both [client](https://aur.archlinux.org/packages/mcpelauncher-linux) and [Qt launcher](https://aur.archlinux.org/packages/mcpelauncher-ui). You can install using an appropriate AUR helper such as yay.
+
+``` bash
+yay -S mcpelauncher-linux mcpelauncher-ui
+```
+
 #### Run
 
 You can find it in the startmenu or run the following command

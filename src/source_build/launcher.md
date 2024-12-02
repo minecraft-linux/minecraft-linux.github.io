@@ -8,6 +8,9 @@
 - **Fedora** (Up to date as of 2024-08-21) - you'll need to install the
   required packages:
   `sudo dnf install clang cmake make git ca-certificates libstdc++ glibc-devel libpng-devel zlib-devel libX11-devel libXi-devel libcurl-devel systemd-devel libevdev-devel mesa-libEGL-devel alsa-lib pulseaudio-libs mesa-dri-drivers systemd-devel libXtst-devel openssl-devel qt5-qtbase-devel qt5-qtwebengine-devel qt5-qtdeclarative-devel qt5-qtsvg-devel qt5-qtquickcontrols qt5-qtquickcontrols2`
+- **Arch** (Up to date as of 2024-12-02) - you'll need to install the 
+  required packages:
+  `sudo pacman -S sudo pacman -S gcc clang ca-certificates openssl libpng libx11 libxi gcc-libs glibc zlib curl systemd libevdev mesa alsa-lib pulseaudio libxtst qt5-base qt5-webengine qt5-declarative qt5-svg qt5-quickcontrols qt5-quickcontrols2`
 - **macOS** - you'll need to install the required packages:
   `brew install cmake libpng openssl@1.1 qt@5`
 
