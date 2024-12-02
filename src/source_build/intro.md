@@ -7,6 +7,7 @@ prerequirements from below.
 
 - **Ubuntu** - `sudo apt-get install git cmake pkg-config`
 - **Fedora** - `sudo dnf install git make cmake pkg-config`
+- **Arch** - `sudo pacman -S git make cmake pkgconf`
 
 ## What to build
 

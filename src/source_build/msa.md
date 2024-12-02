@@ -13,6 +13,8 @@
   `apt-get install libssl-dev libcurl4-openssl-dev`
 - **Fedora** (Up to date as of 2024-08-21) -
   `sudo dnf install openssl-devel libcurl-devel qt5-qtbase-devel qt5-qtwebengine-devel`
+- **Arch** (Up to date as of 2024-12-02) - 
+  `sudo pacman -S openssl curl qt5-base qt5-webengine`
 - **macOS** - `brew install cmake qt@5`
 
 ## Build instructions

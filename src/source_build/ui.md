@@ -13,6 +13,8 @@
   `apt-get install libssl-dev libcurl4-openssl-dev libuv1-dev libzip-dev libprotobuf-dev protobuf-compiler`
 - **Fedora** (Up to date as of 2024-08-21)-
   `sudo dnf install libuv-devel libzip-devel protobuf-devel protobuf-compiler qt5-qtbase-devel qt5-qtwebengine-devel qt5-qtdeclarative-devel qt5-qtsvg-devel qt5-qtquickcontrols qt5-qtquickcontrols2 libcurl-devel libXrandr-devel libXinerama-devel libXcursor-devel libXi-devel`
+- **Arch** (Up to date as of 2024-12-02)-
+  `sudo pacman -S openssl curl libuv libzip protobuf qt5-base qt5-webengine qt5-declarative qt5-svg qt5-quickcontrols qt5-quickcontrols2 qt5-tools libxrandr libxinerama libxcursor libxi`
 - **macOS** - `brew install cmake qt@5 libzip libuv protobuf`
 - [The Game Launcher](./launcher.md)
 
