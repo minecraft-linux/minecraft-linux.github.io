@@ -98,6 +98,8 @@ your hardware.
 You may need to reinstall the proprietary drivers if you had installed
 them manually before.
 
+Performance can also degrade by [running under Xwayland](#i-am-running-into-glitches-with-xwayland).
+
 ### Black screen with Mesa 23.1+
 
 Try adding `MESA_EXTENSION_OVERRIDE=-GL_EXT_instanced_arrays` to
@@ -188,6 +190,30 @@ Mac OS X:
 - `cd /Applications/Minecraft\ Bedrock\ Launcher.app/Contents/MacOS`
 - `./mcpelauncher-client -dg ~/Library/Application\ Support/mcpelauncher/versions/1.2.3.4` -
   Replace 1.2.3.4 with the version of Minecraft you want to run.
+
+### I am running into glitches with Xwayland 
+
+Xwayland does a fairly good job of running X applications on Wayland, but it 
+is not perfect. Depending on your graphics drivers and your desktop environment/
+window manager, you will run into issues that will affect your experience.
+These issues are beyond the scope of this project and should be reported
+upstream. There are two solutions: Fallback to an X11 session, or run the game
+natively under Wayland.
+
+#### Run natively under Wayland
+
+By default, the binary does not come with native Wayland support. 
+You will need to [build the game launcher from source](../source_build/index.md) 
+with SDL3 to enable native wayland support.
+
+Once you have the game launcher built with Wayland support, you will need to
+force the client to run under Wayland, as it will still default to running 
+under Xwayland. This is done by unsetting the `DISPLAY` environment variable.
+
+Through the Qt Launcher, edit your profile and open up the
+advanced options. Under "Environment Variables", add a variable called
+`DISPLAY` (case-matching), and leave the value blank. Doing so will have the 
+client running under native Wayland.
 
 ## Qt launcher UI
 
