@@ -286,4 +286,6 @@ Also known as "black screen of death", starting with Minecraft 1.18.30 (Renderdr
 OS|Hardware|Solution
 ---|---|---
 macOS|GPU is firepro D300 2D|Pencil Icon -> Advanced Settings -> Select Metal
+macOS|Intel HD 4000|Both OpenGL and Metal working, SDL3 Metal crashs iff menubar is rendered
+macOS|Apple M4|Both Intel and Metal working, SDL3 Metal crashs
 linux|* mesa3d|Fixed long time ago
