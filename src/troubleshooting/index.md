@@ -276,3 +276,14 @@ Additionally, the log will be shown if the game crashes.
 - Please Open Settings
 - Press Logout
 - Press Login to restore Google Play Access
+
+### The launcher shows a blackscreen while the game runs in the background
+
+Also known as "black screen of death", starting with Minecraft 1.18.30 (Renderdragon) this might be caused.
+
+**This section needs your help to get more entries, even if Solution is None**
+
+OS|Hardware|Solution
+---|---|---
+macOS|GPU is firepro D300 2D|Pencil Icon -> Advanced Settings -> Select Metal
+linux|* mesa3d|Fixed long time ago
