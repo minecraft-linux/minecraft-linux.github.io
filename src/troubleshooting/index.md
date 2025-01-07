@@ -215,6 +215,30 @@ advanced options. Under "Environment Variables", add a variable called
 `DISPLAY` (case-matching), and leave the value blank. Doing so will have the 
 client running under native Wayland.
 
+### I cannot strafe sprint
+
+Also known as diagnal Sprinting.
+
+See also [MCPE-170810](https://bugs.mojang.com/browse/MCPE-170810).
+
+Affected CPU|Android Version|ChromeOS Version
+---|---|---
+Intel|Pressing A or D together with W stops sprinting|Works
+AMD|Works|Works
+arm64|Works|Works
+
+#### Use the ChromeOS Version
+
+- Buy the ChromeOS Version
+  - Discounted by the price of the Android Version
+  - You can use FydeOS installed into a VM to get access to the store
+- Open Launcher Settings
+  - Enable ChromeOS checkbox
+  - Open Versions Tab
+  - Delete the installed android version
+    - Required for switching the version
+- Now use the launcher as before
+
 ## Qt launcher UI
 
 ### Running the troubleshooter
