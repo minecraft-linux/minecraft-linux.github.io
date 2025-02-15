@@ -7,7 +7,7 @@
   `sudo apt-get install --no-install-recommends g++ clang cmake make git ca-certificates libssl-dev libpng-dev libx11-dev libxi-dev libcurl4-openssl-dev libudev-dev libevdev-dev libegl1-mesa-dev libssl-dev libasound2 qtbase5-dev qtwebengine5-dev qtdeclarative5-dev libqt5svg5-dev qml-module-qtquick2 qml-module-qtquick-layouts qml-module-qtquick-controls qml-module-qtquick-controls2 qml-module-qtquick-window2 qml-module-qtquick-dialogs qml-module-qt-labs-settings qml-module-qt-labs-folderlistmodel qml-module-qtwebengine libpulse-dev`
 - **Fedora** (Up to date as of 2024-08-21) - you'll need to install the
   required packages:
-  `sudo dnf install clang cmake make git ca-certificates libstdc++ glibc-devel libpng-devel zlib-devel libX11-devel libXi-devel libcurl-devel systemd-devel libevdev-devel mesa-libEGL-devel alsa-lib pulseaudio-libs mesa-dri-drivers systemd-devel libXtst-devel openssl-devel qt5-qtbase-devel qt5-qtwebengine-devel qt5-qtdeclarative-devel qt5-qtsvg-devel qt5-qtquickcontrols qt5-qtquickcontrols2`
+  `sudo dnf install clang cmake make git ca-certificates libstdc++ glibc-devel libpng-devel zlib-devel libX11-devel libXi-devel libcurl-devel systemd-devel libevdev-devel mesa-libEGL-devel alsa-lib-devel pulseaudio-libs-devel mesa-dri-drivers systemd-devel libXtst-devel openssl-devel qt5-qtbase-devel qt5-qtwebengine-devel qt5-qtdeclarative-devel qt5-qtsvg-devel qt5-qtquickcontrols qt5-qtquickcontrols2`
 - **Arch** (Up to date as of 2024-12-02) - you'll need to install the 
   required packages:
   `sudo pacman -S sudo pacman -S gcc clang ca-certificates openssl libpng libx11 libxi gcc-libs glibc zlib curl systemd libevdev mesa alsa-lib pulseaudio libxtst qt5-base qt5-webengine qt5-declarative qt5-svg qt5-quickcontrols qt5-quickcontrols2`
