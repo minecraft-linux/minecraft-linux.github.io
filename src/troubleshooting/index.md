@@ -131,6 +131,18 @@ free item in the Marketplace.❗**
   - **Other distros**: Make sure to install the
 PipeWire ALSA plugin depending on your system configuration.
 
+#### sdl3audio SDL_OpenAudioDeviceStream failed, audio will be unavailable: Audio subsystem is not initialized
+
+Starting with release 1.0.0, this app uses sdl3 for audio on linux to no longer require to ship properitary components from fmod.
+Make sure you had installed the dependencies for sdl3 audio subsystem
+
+Like alsa dev, pulseaudio dev or pipewire dev libraries.
+
+E.g.
+- Ubuntu: libpulse-dev
+- Fedora: alsa-lib-devel pulseaudio-libs-devel
+
+
 ### Updating the launcher
 
 - Linux AppImage or macOS to update the launcher on newer versions of
@@ -313,3 +325,5 @@ macOS|GPU is firepro D300 2D|Pencil Icon -> Advanced Settings -> Select Metal
 macOS|Intel HD 4000|Both OpenGL and Metal working, SDL3 Metal crashs iff menubar is rendered
 macOS|Apple M4|Both OpenGL and Metal working, SDL3 Metal crashs
 linux|* mesa3d|Fixed long time ago
+
+
