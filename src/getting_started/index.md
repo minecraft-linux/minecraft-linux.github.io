@@ -21,9 +21,11 @@ AppImages are deprecated and keep on an outdated release.
 Some soft forks continued to violating the ["Can I play with an apk"](https://minecraft-linux.github.io/faq/index.html#can-i-play-with-an-apk) policy.
 
 Consider switching to flatpak / native OS packages for Debian, Ubuntu or Fedora
+
+Minecraft Versions up to 1.21.60.10 are allowed, while only up to 1.21.5X are fully supported
 </div>
 
-Prebuilt linux **AppImages** are available on
+Prebuilt linux **AppImages** were available on
 [AppImage Builder on Github](https://github.com/minecraft-linux/appimage-builder/releases/latest)
 After downloading simply open terminal,
 `chmod +x Minecraft_Bedrock_Launcher-*.AppImage` and run
@@ -153,6 +155,7 @@ Starting with March 2025 updates to Minecraft can stop in this macOS Port, which
 
 It's not recommend to buy the android game just for this launcher
 
+Minecraft Versions up to 1.21.61 are currently fully supported
 </div>
 
 Prebuilt **macOS binary's** are [currently available
