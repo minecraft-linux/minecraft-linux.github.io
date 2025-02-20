@@ -251,6 +251,15 @@ arm64|Works|Works
     - Required for switching the version
 - Now use the launcher as before
 
+### The mouse doesn't hide / behaves abnormally
+
+#### WSL2
+See <https://github.com/microsoft/wslg/issues/376>, this app targets linux booted by your Device not wsl.
+The summary of this issue is using gwsl instead of wslg.
+
+#### ChromeOS
+Make sure you have enabled `#exo-pointer-lock` in `chrome://flags`.
+
 ## Qt launcher UI
 
 ### Running the troubleshooter
