@@ -335,4 +335,8 @@ macOS|Intel HD 4000|Both OpenGL and Metal working, SDL3 Metal crashs iff menubar
 macOS|Apple M4|Both OpenGL and Metal working, SDL3 Metal crashs
 linux|* mesa3d|Fixed long time ago
 
+### Google Login Error "Something went wrong"
 
+Google accounts that needs a parent Account to approve the logon are a common case for this error
+
+[You might need this helper Application on an actual Android Phone/VM/Emulator](https://github.com/ChristopherHX/PlayToken/releases/tag/2023.1)
