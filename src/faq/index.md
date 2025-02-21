@@ -2,46 +2,43 @@
 
 ## Do I need to own Minecraft: Pocket Edition to play?
 
-Yes. To download and update a compatible versions of the Game, the
+Yes. To download and update a compatible version of the game, the
 Google Play account you sign in with needs to own the game on the Play
-Store. Then you are able to download and play some previous versions of
-the game as well, althought not offically supported by Google Play.
+Store. Then you are able to download and play the latest version and a even few 
+previous versions as well, althrough not offically supported by Google Play.
 
 ### The launcher **cannot** download the game from:
 
-- The Amazon App store, althought may or may not work on arm devices.
-  You have to extract the apk from an amazon device.
+- The Amazon App store, althrough may or may not work on ARM devices.
+  You have to extract the APK from an Amazon device.
 
 ### The launcher **cannot** download and **cannot** launch the game from:
-
-This would require a completly different Launcher, if that would even
-possible
 
 - The Apple iOS App store
 - The Microsoft Store, previously by redeeming a gift code for
   Minecraft: Windows 10 Edition
 
+  Even if this was possible, it would require a completely different Launcher.
+  
 ### Can I play with an APK?
 
-No, this allowed piracy that is forbidden in this project.
+No, this would allow piracy which is forbidden in this project.
 
-Any attempt to document workarounds or make it easy to import an paid apk without a valid google play game license is undesirable.
+Any attempt to document workarounds or to make it easy to import a paid APK without a valid Google Play game license is undesirable.
 
-Game licenses can be revoked at any point of time by you, microsoft/mojang or google, as it happened for all residents of Russia.
+Game licenses can be revoked at any point of time by you, Microsoft/Mojang or Google, as it happened to all residents of Russia.
 
-Ignoring this policy may cause suspension including termination of this project like happended between 2022-2023.
+Ignoring this policy may cause suspension including termination of this project like it happended between 2022 - 2023.
 
 _Exception to the rule are Minecraft Trial and Edu where the latter doesn't work at this time._
 
 ## Does it work on Windows 7 / 8?
 
-No, due to the amount of work required to get this running on Windows.
-Play the Windows 10 Edition instead if you can. Note that you can not
-play Minecraft in the current version of [Windows Subsystem for Linux
-(WSL)](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux), as
-the mouse input is broken due to an
-[issue](https://github.com/microsoft/wslg/issues/240) with its graphic
-stack.
+No, due to the amount of work required to get this running on older 
+versions of Windows. Play the Windows 10 Edition instead if you can.
+Note that you can not play Minecraft in the current version of the 
+[Windows Subsystem for Linux(WSL)](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux), as
+the mouse input is broken due to an [issue](https://github.com/microsoft/wslg/issues/240) with its graphic stack.
 
 ## How does it work?
 
@@ -65,20 +62,19 @@ Mac OS X:
 `~/Library/Application Support/mcpelauncher/games/com.mojang/minecraftWorlds`
 
 Each world has its own directory. If you have multiple worlds, you can
-identify them by their name in `levelname.txt` found in each world.
+identify them by their name in `levelname.txt` found in each world folder.
 
-The `mcpelauncher-server` creates and expects its world files in
-`world`.
+The `mcpelauncher-server` creates and expects its world files in `world`.
 
 ## Can I use resource packs?
 
-Yes, put them in
+Of course, put them into: 
 `~/.local/share/mcpelauncher/games/com.mojang/resource_packs`.
 
 (For Flatpak)
 `~/.var/app/io.mrarm.mcpelauncher/data/mcpelauncher/games/com.mojang/resource_packs`
 
-For Mac OS X, put them in
+For Mac OS X, put them into: 
 `~/Library/Application Support/mcpelauncher/games/com.mojang/resource_packs`.
 
 Shaders are also resource packs. (Shaders must be GLSL based and must be
@@ -95,7 +91,7 @@ Yes for Minecraft 1.21.2x and below by extracting the lib/native folder of https
 
 ![dataroot](./dataroot.png)
 
-An incomplete list of known values, if your launcher profile has no  custom path.
+An incomplete list of known values, if your launcher profile has no custom path.
 
 Package Type|Path
 ---|---
@@ -103,8 +99,8 @@ linux|`~/.local/share/mcpelauncher`
 linux (flatpak)|`~/.var/app/io.mrarm.mcpelauncher`
 macOS|`~/Library/Application Support/mcpelauncher`
 
-## Can I Play multiple Versions of the Game?
+## Can I play multiple versions of the game?
 
-Yes, by editing your profile and changeing the version in the dropdown
+Yes, by editing your profile and changing the version in the dropdown menu.
 
 ![profileedit](profileedit.png)
