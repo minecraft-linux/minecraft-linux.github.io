@@ -4,7 +4,7 @@
 
 Yes. To download and update a compatible version of the game, the
 Google Play account you sign in with needs to own the game on the Play
-Store. Then you are able to download and play the latest version and a even few 
+Store. Then you are able to download and play the latest version and even a few 
 previous versions as well, althrough not offically supported by Google Play.
 
 ### The launcher **cannot** download the game from:
