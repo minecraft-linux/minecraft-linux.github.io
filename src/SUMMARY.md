@@ -9,6 +9,7 @@ Edition). The launcher supports Linux and OS X.
 - [Getting Started](./getting_started/index.md)
 - [FAQ](./faq/index.md)
 - [Troubleshooting](./troubleshooting/index.md)
+  - [Configure Input Filter](./troubleshooting/configure-input-filter/index.md)
 - [Building from Source](./source_build/index.md)
   - [Introduction](./source_build/intro.md)
   - [Game Launcher](./source_build/launcher.md)
