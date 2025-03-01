@@ -75,6 +75,12 @@ controller.
 Under Linux, you may have to plug the controller **after** launching the
 game.
 
+### Mouse cursor unlocks from game when using controller
+
+You can try
+- Disable Mouse Emulation for Gamepad
+- [Configure the Input Filter](./configure-input-filter/index.md)
+
 ## Game launcher
 
 ### Graphics performance issues (software rendering) - `EGLUT: failed to initialize EGL display...`
