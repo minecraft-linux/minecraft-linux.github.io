@@ -155,7 +155,7 @@ Starting with March 2025 updates to Minecraft can stop in this macOS Port, which
 
 It's not recommend to buy the android game just for this launcher
 
-Minecraft Versions up to 1.21.61 are currently fully supported
+Minecraft Versions up to 1.21.62 are currently fully supported, 1.21.70.25 (beta) is working
 </div>
 
 Prebuilt **macOS binary's** are [currently available
