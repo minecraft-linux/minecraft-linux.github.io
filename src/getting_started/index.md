@@ -97,6 +97,11 @@ If it doesn't start you can enable debug logging like this
 flatpak run io.mrarm.mcpelauncher -v
 ```
 
+If this still just closes, you might need to disable wayland support due to bugs of certain linux (sub)systems like chromeos
+```
+flatpak run --nosocket=wayland --nosocket=fallback-x11 --socket=x11 io.mrarm.mcpelauncher
+```
+
 ### Debian, Ubuntu and Fedora repo
 
 [How to add the apt or rpm
