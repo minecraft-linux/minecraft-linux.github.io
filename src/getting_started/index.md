@@ -154,13 +154,13 @@ mcpelauncher-ui-qt -v
 
 <div class="warning">
 
-Mojang will soon require OpenGL ES 3.1
+Mojang will soon require OpenGL ES 3.1.
 
-Starting with March 2025 updates to Minecraft can stop in this macOS Port, which supports at most OpenGL ES 3.0
+Starting with April 2025 updates to Minecraft can stop in this macOS Port, which supports at most OpenGL ES 3.0.
 
-It's not recommend to buy the android game just for this launcher
+It's not recommend to buy the android game just for this launcher. Ownership on the Google Play Store, not any other Store, is a hard requirement for playing the full version of the game.
 
-Minecraft Versions up to 1.21.62 are currently fully supported, 1.21.70.25 (beta) is working
+Minecraft Versions up to 1.21.71 are currently fully supported, 1.21.80.22 (beta) is working.
 </div>
 
 Prebuilt **macOS binary's** are [currently available
