@@ -1,5 +1,11 @@
 # Compiling the server launcher (DEPRECATED)
 
+<div class="warning">
+
+This instruction won't really work right now.
+
+</div>
+
 ## Prerequisites
 
 - **Ubuntu** - `sudo apt-get install git cmake pkg-config`

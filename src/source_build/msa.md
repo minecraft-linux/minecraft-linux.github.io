@@ -1,6 +1,10 @@
 # Compiling MSA (for Xbox Live)
 
+<div class="warning">
+
 **Not used for Xbox live in Minecraft 1.16.40+**
+
+</div>
 
 ## Prerequisites
 

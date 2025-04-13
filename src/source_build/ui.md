@@ -1,5 +1,13 @@
 # Compiling the Qt UI
 
+<div class="warning">
+
+The qt5 version is deprecated and only supported on distributions with protobuf that not depends on abseil and uses cmake 3.x.
+
+Use branch qt6 for cmake 4.0 and newer protobuf.
+
+</div>
+
 ## Prerequisites
 
 - **Ubuntu 18.04+** -
