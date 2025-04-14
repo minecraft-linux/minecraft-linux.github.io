@@ -346,3 +346,14 @@ linux|* mesa3d|Fixed long time ago
 Google accounts that needs a parent Account to approve the logon are a common case for this error
 
 [You might need this helper Application on an actual Android Phone/VM/Emulator](https://github.com/ChristopherHX/PlayToken/releases/tag/2023.1)
+
+### I can install Minecraft from Google Play on my phone just fine and I'm logged in with the same account in the launcher, but the launcher still refuses me to download the game
+
+You might be using the wrong account. **If you have multiple Google Accounts
+on you phone, and one or more of them have purchased the game, Google Play
+will show that you have already purchased the game** (indicated by the Install
+button instead of showing the price) **even if you used the wrong account**
+in the Google Play account selector. You can find out which account really
+owns the game by looking at the purchase history of each account. Once you
+have found the correct account, you can go to settings, then logout and log in
+with the correct account.
