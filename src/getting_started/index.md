@@ -9,7 +9,7 @@ x86_64, armhf, and arm64 versions of Minecraft on both Linux and MacOS.
 
 ## Linux
 
-The Unofficial *NIX Lancher for Minecraft can be installed in many ways, however the primary
+The Unofficial *NIX Launcher for Minecraft can be installed in many ways, however the primary
 method of installation is with the Appimage.
 
 ### AppImage
