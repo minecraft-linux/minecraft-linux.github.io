@@ -5,11 +5,11 @@
 Yes. To download and update a compatible version of the game, the
 Google Play account you sign in with needs to own the game on the Play
 Store. Then you are able to download and play the latest version and even a few 
-previous versions as well, althrough not offically supported by Google Play.
+previous versions as well, although not officially supported by Google Play.
 
 ### The launcher **cannot** download the game from:
 
-- The Amazon App store, althrough may or may not work on ARM devices.
+- The Amazon App store, although may or may not work on ARM devices.
   You have to extract the APK from an Amazon device.
 
 ### The launcher **cannot** download and **cannot** launch the game from:
@@ -47,7 +47,7 @@ on your computer. This is accomplished by fixing the incompatibilities
 between the libc used on Android and the one used on desktop Linux or OS
 X (Android - Bionic; Linux - glibc). This is a simple compatibility
 layer which doesn't impact performance in any significant way; it's
-similar to Wine, but much more lightweight and simple. Aditionally, all
+similar to Wine, but much more lightweight and simple. Additionally, all
 Android-specific code has been rewritten to run on Linux (AppPlatform,
 Store, Xbox Live, etc.).
 
@@ -83,7 +83,7 @@ compatible with your graphics drivers)
 **Note:** You will probably need to extract `.zip` and `.mcpack` files
 into their own subdirectory for them to work properly.
 
-## Can I reenable the native fmod mode?
+## Can I re-enable the native fmod mode?
 
 Yes for Minecraft 1.21.2x and below by extracting the lib/native folder of https://github.com/minecraft-linux/mcpelauncher-linux-bin/tree/1e84fde7d5fb90b913c84b9945700ef6af69df12 or https://github.com/minecraft-linux/mcpelauncher-mac-bin/tree/5189766d94de83a9fa6ea4f8477b1a5faca05bdb directly under [`Data Root`](#where-is-the-data-root-folder)`/lib/native`
 
