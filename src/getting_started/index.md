@@ -3,14 +3,14 @@
 The Unofficial *NIX Lancher for Minecraft is an **unofficial** launcher for the Android version
 the Minecraft Bedrock Edition. It uses uses fake JNI (Java Native
 Interface) to communicate with Minecraft. Unofficial *NIX Lancher for Minecraft supports x86,
-x86_64, armhf, and arm64 versions of Minecraft on both Linux and MacOS
+x86_64, armhf, and arm64 versions of Minecraft on both Linux and MacOS.
 
 # Installation
 
 ## Linux
 
 The Unofficial *NIX Launcher for Minecraft can be installed in many ways, however the primary
-method of installation is with the Appimage
+method of installation is with the Appimage.
 
 ### AppImage
 
@@ -20,9 +20,9 @@ AppImages are deprecated and keep on an outdated release.
 
 Some soft forks continued to violating the ["Can I play with an apk"](https://minecraft-linux.github.io/faq/index.html#can-i-play-with-an-apk) policy.
 
-Consider switching to flatpak / native OS packages for Debian, Ubuntu or Fedora
+Consider switching to flatpak / native OS packages for Debian, Ubuntu or Fedora.
 
-Minecraft Versions up to 1.21.60.10 are allowed, while only up to 1.21.5X are fully supported
+Minecraft Versions up to 1.21.60.10 are allowed, while only up to 1.21.5X are fully supported.
 </div>
 
 Prebuilt linux **AppImages** were available on
@@ -36,7 +36,7 @@ from a Terminal `./Minecraft_Bedrock_Launcher-*.AppImage `
 #### Updating
 
 To Upgrade, simply remove the old appimage and download the new version
-using the above steps
+using the above steps.
 
 #### Startmenu Integration
 
