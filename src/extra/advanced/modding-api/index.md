@@ -1,4 +1,25 @@
-# MCPELauncher API Referenc
+# MCPELauncher API Reference
+
+This document provides an overview of the MCPELauncher API, detailing the available symbols, their signatures, and descriptions. The API is designed for advanced modding and hooking functionalities in Minecraft Pocket Edition.
+
+## Overview
+
+The MCPELauncher API allows developers to hook into Minecraft's runtime, modify behavior, and manage dynamic libraries. It provides functions for logging, hooking symbols, patching memory, and handling dynamic libraries.
+
+## Accessing the API
+
+Use `dlopen("libmcpelauncher_mod.so", RTLD_NOW)` and `dlsym` to access the API. The symbols are defined in the `libmcpelauncher_mod.so` shared library.
+
+Otherwise declare the symbols as weam `extern "C"` in your C++ code to avoid name mangling and allow the launcher to provide the implementations.
+
+```c++
+extern "C" {
+    __attribute__((weak)) void* mcpelauncher_hook(void* sym, void* hook, void** orig);
+    __attribute__((weak)) void* mcpelauncher_hook2(void* lib, const char* sym, void* hook, void** orig);
+    // ... other symbols
+}
+```
+
 ## Logging Functions
 
 | Symbol | Description | Notes |
