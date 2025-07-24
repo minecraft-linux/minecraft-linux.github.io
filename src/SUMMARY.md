@@ -24,4 +24,5 @@ Edition). The launcher supports Linux and OS X.
     - [JNI](./extra/advanced/jni/index.md)
     - [NDK Shims](./extra/advanced/ndk_shims/index.md)
     - [Modding Api](./extra/advanced/modding-api/index.md)
+    - [Game Window Api](./extra/advanced/game-window-api/index.md)
 - [External Links](./external_links/index.md)
