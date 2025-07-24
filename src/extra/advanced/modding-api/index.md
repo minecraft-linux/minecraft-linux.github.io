@@ -4,6 +4,8 @@ This document provides an overview of the MCPELauncher API, detailing the availa
 
 ## Overview
 
+Mods have to be compiled as android shared libraries (`.so` files) using the Android NDK and placed in the `mods` directory of the MCPELauncher. The launcher will automatically load these libraries at startup.
+
 The MCPELauncher API allows developers to hook into Minecraft's runtime, modify behavior, and manage dynamic libraries. It provides functions for logging, hooking symbols, patching memory, and handling dynamic libraries.
 
 ## Accessing the API
