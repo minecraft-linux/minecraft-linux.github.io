@@ -5,3 +5,4 @@
 - [NDK Shims](./ndk_shims/index.md)
 - [Modding Api](./modding-api/index.md)
 - [Game Window Api](./game-window-api/index.md)
+- [Menu Api](./menu-api/index.md)
