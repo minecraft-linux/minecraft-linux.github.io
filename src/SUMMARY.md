@@ -23,5 +23,5 @@ Edition). The launcher supports Linux and OS X.
     - [Debugging NDK Libraries](./extra/advanced/debugging_ndk_libraries/index.md)
     - [JNI](./extra/advanced/jni/index.md)
     - [NDK Shims](./extra/advanced/ndk_shims/index.md)
-    - [Modding Api](./extra/advanced/modding-api/index.md
+    - [Modding Api](./extra/advanced/modding-api/index.md)
 - [External Links](./external_links/index.md)
