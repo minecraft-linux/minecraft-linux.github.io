@@ -1,5 +1,5 @@
 # MCPELauncher API Referenc
-## 🔧 Logging Functions
+## Logging Functions
 
 | Symbol | Description | Notes |
 |--------|-------------|-------|
@@ -8,7 +8,7 @@
 
 ---
 
-## 🪝 Hook Initialization
+## Hook Initialization
 
 | Symbol | Signature | Description |
 |--------|-----------|-------------|
@@ -17,7 +17,7 @@
 
 ---
 
-## 🧬 Hook Management
+## Hook Management
 
 | Symbol | Signature | Description |
 |--------|-----------|-------------|
@@ -30,7 +30,7 @@
 
 ---
 
-## 🧵 Memory Patching
+## Memory Patching
 
 | Symbol | Signature | Description |
 |--------|-----------|-------------|
@@ -39,7 +39,7 @@
 
 ---
 
-## 📦 Dynamic Library Handling
+## Dynamic Library Handling
 
 | Symbol | Description |
 |--------|-------------|
@@ -50,7 +50,7 @@
 
 ---
 
-## 🔁 Symbol Relocation
+## Symbol Relocation
 
 | Symbol | Signature | Description |
 |--------|-----------|-------------|
@@ -61,7 +61,7 @@
 
 ---
 
-## 📚 Data Structures
+## Data Structures
 
 ```cpp
 struct hook_entry {
@@ -71,7 +71,3 @@ struct hook_entry {
 ```
 
 Used for batch relocation and library loading.
-
----
-
-Would you like this turned into documentation for developers, or maybe a visual diagram of how the hook system works?
