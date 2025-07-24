@@ -12,7 +12,7 @@ The MCPELauncher API allows developers to hook into Minecraft's runtime, modify 
 
 Use `dlopen("libmcpelauncher_mod.so", RTLD_NOW)` and `dlsym` to access the API. The symbols are defined in the `libmcpelauncher_mod.so` shared library.
 
-Otherwise declare the symbols as weam `extern "C"` in your C++ code to avoid name mangling and allow the launcher to provide the implementations.
+Otherwise declare the symbols as weak, `extern "C"` in your C++ code to avoid name mangling and allow the launcher to provide the implementations.
 
 ```c++
 extern "C" {
