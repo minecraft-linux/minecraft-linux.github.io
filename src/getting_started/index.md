@@ -7,7 +7,7 @@ x86_64, armhf, and arm64 versions of Minecraft on both Linux and MacOS.
 
 # Contribute Translations
 
-You can now contribute translations of the Launcher UI via [weblate](https://weblate.org/de/) at https://hosted.weblate.org/projects/minecraft-linux/mcpelauncher-ui-qt/ without touching the raw translation files.
+You can now contribute translations of the Launcher UI via [weblate](https://weblate.org/) at [hosted.weblate.org/projects/minecraft-linux/mcpelauncher-ui-qt/](https://hosted.weblate.org/projects/minecraft-linux/mcpelauncher-ui-qt/) without touching the raw translation files.
 
 # Installation
 
