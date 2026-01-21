@@ -166,6 +166,12 @@ Should be solved by [Updating the Launcher](#updating-the-launcher)
 
 Should be solved by [Updating the Launcher](#updating-the-launcher)
 
+### No auth cookie field returned
+
+No auth cookie field returned with status: 400, body: MissingDroidGuard
+
+Turn on web activity tracking myactivity.google.com/activitycontrols again and try loggin in again, this is a temporary workaround. Once you have logged in this setting does not log you out until you are logged off.
+
 ### File picking doesn't work or crashes
 
 You need to install the `zenity` utility:
