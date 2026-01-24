@@ -170,7 +170,7 @@ Should be solved by [Updating the Launcher](#updating-the-launcher)
 
 No auth cookie field returned with status: 400, body: MissingDroidGuard
 
-Turn on web activity tracking myactivity.google.com/activitycontrols again and try loggin in again, this is a temporary workaround. Once you have logged in this setting does not log you out until you are logged off.
+Change web activity tracking (either from off to on or from off to on, but do make changes) myactivity.google.com/activitycontrols again and try loggin in again, this is a temporary workaround. Once you have logged in this setting does not log you out until you are logged off.
 
 ### File picking doesn't work or crashes
 
