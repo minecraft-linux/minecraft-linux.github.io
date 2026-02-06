@@ -2,9 +2,9 @@
 
 <div class="warning">
 
-The default (main) branch uses Qt5 and is deprecated. It is only supported on distributions with protobuf that does not depend on abseil and that use cmake 3.x.
+The default (ng) branch uses Qt5 and is deprecated. It is only supported on distributions with protobuf that does not depend on abseil and that use cmake 3.x.
 
-**For most users, the `qt6` branch is recommended.** It supports cmake 4.0 and newer protobuf. See the [qt6 branch instructions](#building-the-qt6-branch-recommended) below.
+**For most users, the `qt6` branch is recommended.** It supports newer protobuf. See the [qt6 branch instructions](#building-the-qt6-branch-recommended) below.
 
 </div>
 
@@ -33,11 +33,9 @@ CC=clang CXX=clang++ cmake .. -Wno-dev -DCMAKE_BUILD_TYPE=Release -DJNI_USE_JNIV
 make -j$(getconf _NPROCESSORS_ONLN)
 ```
 
-> **Note:** Some submodules (such as eglut) may specify an older minimum cmake version (e.g. 3.5). If you encounter cmake policy errors when building with cmake 4.0+, try adding `-DCMAKE_POLICY_VERSION_MINIMUM=3.5` to the cmake command.
+## Build instructions (ng branch, deprecated)
 
-## Build instructions (main branch, deprecated)
-
-> **Warning:** The main branch uses Qt5 and is deprecated. Prefer the [qt6 branch](#building-the-qt6-branch-recommended) unless you specifically need the Qt5 version.
+> **Warning:** The ng branch uses Qt5 and is deprecated. Prefer the [qt6 branch](#building-the-qt6-branch-recommended) unless you specifically need the Qt5 version.
 
 ``` bash
 git clone --recursive https://github.com/minecraft-linux/mcpelauncher-manifest.git mcpelauncher && cd mcpelauncher
