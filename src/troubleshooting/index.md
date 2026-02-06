@@ -104,7 +104,7 @@ your hardware.
 You may need to reinstall the proprietary drivers if you had installed
 them manually before.
 
-Performance can also degrade by [running under Xwayland](#i-am-running-into-glitches-with-xwayland).
+Performance can also degrade by [running under Xwayland](#i-am-running-into-glitches-with-xwayland). If you are on a Wayland session and experiencing software rendering or graphical issues, try switching to an X11 session or running the game [natively under Wayland](#run-natively-under-wayland).
 
 ### Black screen with Mesa 23.1+
 
@@ -223,6 +223,11 @@ window manager, you will run into issues that will affect your experience.
 These issues are beyond the scope of this project and should be reported
 upstream. There are two solutions: Fallback to an X11 session, or run the game
 natively under Wayland.
+
+> **Note:** If you are experiencing software rendering (llvmpipe) or other
+> graphics performance issues under Wayland, switching to an X11 session
+> is often the simplest fix. You can do this by selecting "X11" or "Xorg"
+> from your display manager's session menu at the login screen.
 
 #### Run natively under Wayland
 
