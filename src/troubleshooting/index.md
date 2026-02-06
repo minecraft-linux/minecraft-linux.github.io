@@ -104,7 +104,7 @@ your hardware.
 You may need to reinstall the proprietary drivers if you had installed
 them manually before.
 
-Performance can also degrade by [running under Xwayland](#i-am-running-into-glitches-with-xwayland).
+Performance can also degrade by [running under Xwayland](#i-am-running-into-glitches-with-xwayland). If you are on a Wayland session and experiencing software rendering or graphical issues, try switching to an X11 session or building with native Wayland support (see [below](#run-natively-under-wayland)). Note that the default game window system (EGLUT) only supports X11, so the game runs under XWayland unless built with SDL3 or GLFW.
 
 ### Black screen with Mesa 23.1+
 
@@ -224,11 +224,17 @@ These issues are beyond the scope of this project and should be reported
 upstream. There are two solutions: Fallback to an X11 session, or run the game
 natively under Wayland.
 
+> **Note:** If you are experiencing software rendering (llvmpipe) or other
+> graphics performance issues under Wayland, switching to an X11 session
+> is often the simplest fix. You can do this by selecting "X11" or "Xorg"
+> from your display manager's session menu at the login screen.
+
 #### Run natively under Wayland
 
-By default, the binary does not come with native Wayland support. 
-You will need to [build the game launcher from source](../source_build/index.md) 
-with SDL3 to enable native wayland support.
+By default, the binary uses EGLUT for the game window, which only supports X11
+(running under XWayland on Wayland sessions). To get native Wayland support, you
+will need to [build the game launcher from source](../source_build/index.md)
+with either `-DGAMEWINDOW_SYSTEM=SDL3` or `-DGAMEWINDOW_SYSTEM=GLFW`.
 
 Once you have the game launcher built with Wayland support, you will need to
 force the client to run under Wayland, as it will still default to running 
