@@ -1,7 +1,7 @@
 # Getting started
 
 The Unofficial *NIX Lancher for Minecraft is an **unofficial** launcher for the Android version
-the Minecraft Bedrock Edition. It uses uses fake JNI (Java Native
+of Minecraft Bedrock Edition. It uses uses fake JNI (Java Native
 Interface) to communicate with Minecraft. Unofficial *NIX Lancher for Minecraft supports x86,
 x86_64, armhf, and arm64 versions of Minecraft on both Linux and MacOS.
 
@@ -22,7 +22,7 @@ method of installation is with the Appimage.
 
 AppImages are deprecated and keep on an outdated release.
 
-Some soft forks continued to violating the ["Can I play with an apk"](https://minecraft-linux.github.io/faq/index.html#can-i-play-with-an-apk) policy.
+Some soft forks continued to violate the ["Can I play with an apk"](https://minecraft-linux.github.io/faq/index.html#can-i-play-with-an-apk) policy.
 
 Consider switching to flatpak / native OS packages for Debian, Ubuntu or Fedora.
 
@@ -45,7 +45,7 @@ using the above steps.
 #### Startmenu Integration
 
 If it's your first time you have installed an AppImage and you want an
-Icon in your startmenu
+Icon in your startmenu:
 
 - install
   [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher)
@@ -85,8 +85,8 @@ flatpak update
 
 #### Run
 
-If it's your first time you have installed a Flatpak please logout from
-your Computer and sign back in to be able to find the Launcher inside
+If it's your first time installing a Flatpak, please logout from
+your computer and sign back in to be able to find the Launcher inside
 your startmenu.
 
 To run it from a Terminal, run
@@ -167,7 +167,7 @@ It's not recommend to buy the android game just for this launcher. Ownership on 
 Minecraft Versions up to 1.21.71 are currently fully supported, 1.21.80.22 (beta) is working.
 </div>
 
-Prebuilt **macOS binary's** are [currently available
+Prebuilt **macOS binaries** are [currently available
 here](https://github.com/ChristopherHX/osx-packaging-scripts/releases/latest).
 Always copy the App to a writeable location otherwise the updater won't
 work.
