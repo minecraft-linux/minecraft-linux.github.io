@@ -2,9 +2,9 @@
 
 <div class="warning">
 
-The default (ng) branch uses Qt5 and is deprecated. It is only supported on distributions with protobuf that does not depend on abseil and that use cmake 3.x.
+The default branch (`ng`) uses Qt5 and requires protobuf that does not depend on abseil, and cmake 3.x.
 
-**For most users, the `qt6` branch is recommended.** It supports newer protobuf. See the [qt6 branch instructions](#building-the-qt6-branch-recommended) below.
+There is also a `qt6` branch with Qt6 and newer protobuf support, but it is still a work in progress.
 
 </div>
 
@@ -22,20 +22,7 @@ The default (ng) branch uses Qt5 and is deprecated. It is only supported on dist
 - **macOS** - you'll need to install the required packages:
   `brew install cmake libpng openssl@1.1 qt@5`
 
-## Building the qt6 branch (recommended)
-
-The `qt6` branch is the actively maintained branch. To build it:
-
-``` bash
-git clone --recursive -b qt6 https://github.com/minecraft-linux/mcpelauncher-manifest.git mcpelauncher && cd mcpelauncher
-mkdir -p build && cd build
-CC=clang CXX=clang++ cmake .. -Wno-dev -DCMAKE_BUILD_TYPE=Release -DJNI_USE_JNIVM=ON
-make -j$(getconf _NPROCESSORS_ONLN)
-```
-
-## Build instructions (ng branch, deprecated)
-
-> **Warning:** The ng branch uses Qt5 and is deprecated. Prefer the [qt6 branch](#building-the-qt6-branch-recommended) unless you specifically need the Qt5 version.
+## Build instructions
 
 ``` bash
 git clone --recursive https://github.com/minecraft-linux/mcpelauncher-manifest.git mcpelauncher && cd mcpelauncher
