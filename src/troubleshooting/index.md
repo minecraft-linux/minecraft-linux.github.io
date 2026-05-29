@@ -369,3 +369,10 @@ in the Google Play account selector. You can find out which account really
 owns the game by looking at the purchase history of each account. Once you
 have found the correct account, you can go to settings, then logout and log in
 with the correct account.
+
+### on-screen keyboard and in-game typing interface both close after entering one letter on steam deck
+You can work around this issue by doing one of two things. 
+1: When trying to edit text on a sign, hold STEAM while using the right trackpad until the game registers it as mouse input. Then, while using this method, look at the sign and press LT as you normally would. Now you should be able edit the sign's text freely. 
+2: When trying to type in chat, rename an item in an anvil, or write in a book and quill, you can instead/also use the steam deck's touchscreen. By pressing whichever field you want to type in, the action will be read as mouse input. Then, bring up the on-screen keyboard with STEAM + X, and you should be able to enter text as usual. 
+
+Note: using the touchscreen while not in a menu seemingly causes the camera to turn very quickly and unpredictably.
