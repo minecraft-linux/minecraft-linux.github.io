@@ -2,9 +2,9 @@
 
 <div class="warning">
 
-The qt5 version is deprecated and only supported on distributions with protobuf that not depends on abseil and uses cmake 3.x.
+The default branch (`ng`) uses Qt5 and requires protobuf that does not depend on abseil, and cmake 3.x.
 
-Use branch qt6 for cmake 4.0 and newer protobuf.
+There is also a `qt6` branch with Qt6 and newer protobuf support, but it is still a work in progress.
 
 </div>
 
@@ -16,7 +16,7 @@ Use branch qt6 for cmake 4.0 and newer protobuf.
 - **Fedora** (Up to date as of 2024-08-21) - you'll need to install the
   required packages:
   `sudo dnf install clang cmake make git ca-certificates libstdc++ glibc-devel libpng-devel zlib-devel libX11-devel libXi-devel libcurl-devel systemd-devel libevdev-devel mesa-libEGL-devel alsa-lib-devel pulseaudio-libs-devel mesa-dri-drivers systemd-devel libXtst-devel openssl-devel qt5-qtbase-devel qt5-qtwebengine-devel qt5-qtdeclarative-devel qt5-qtsvg-devel qt5-qtquickcontrols qt5-qtquickcontrols2`
-- **Arch** (Up to date as of 2024-12-02) - you'll need to install the 
+- **Arch** (Up to date as of 2024-12-02) - you'll need to install the
   required packages:
   `sudo pacman -S gcc clang ca-certificates openssl libpng libx11 libxi gcc-libs glibc zlib curl systemd libevdev mesa alsa-lib pulseaudio libxtst qt5-base qt5-webengine qt5-declarative qt5-svg qt5-quickcontrols qt5-quickcontrols2`
 - **macOS** - you'll need to install the required packages:
@@ -27,7 +27,7 @@ Use branch qt6 for cmake 4.0 and newer protobuf.
 ``` bash
 git clone --recursive https://github.com/minecraft-linux/mcpelauncher-manifest.git mcpelauncher && cd mcpelauncher
 mkdir -p build && cd build
-CC=clang CXX=clang++ cmake .. -Wno-dev -DCMAKE_BUILD_TYPE=Release -DJNI_USE_JNIVM=ON 
+CC=clang CXX=clang++ cmake .. -Wno-dev -DCMAKE_BUILD_TYPE=Release -DJNI_USE_JNIVM=ON
 make -j$(getconf _NPROCESSORS_ONLN)
 ```
 
