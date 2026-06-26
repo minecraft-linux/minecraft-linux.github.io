@@ -1,5 +1,21 @@
 # Frequently Asked Questions
 
+## Cannot host or join LAN/Friends worlds
+
+Open UDP port 7551 in your firewall.
+
+ufw
+```sh
+sudo ufw allow 7551/udp
+sudo ufw reload
+```
+
+firewalld
+```sh
+sudo firewall-cmd --zone=public --add-port=7551/udp --permanent
+sudo firewall-cmd --reload
+```
+
 ## Do I need to own Minecraft: Pocket Edition to play?
 
 Yes. To download and update a compatible version of the game, the
